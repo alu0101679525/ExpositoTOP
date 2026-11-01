@@ -1,0 +1,735 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.0">
+    
+    
+      
+        <title>Class Member Functions - ExpositoTOP</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#class-member-functions" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="ExpositoTOP" class="md-header__button md-logo" aria-label="ExpositoTOP" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ExpositoTOP
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Class Member Functions
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="ExpositoTOP" class="md-nav__button md-logo" aria-label="ExpositoTOP" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    ExpositoTOP
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manual de Usuario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../grasp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Algoritmo GRASP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../decisiones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Registro de Decisiones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        a
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#b" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        b
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        c
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#e" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        e
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#f" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        f
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#g" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        g
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#h" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        h
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#i" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        i
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#m" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        m
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#n" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        n
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#p" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        p
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#r" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        r
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        s
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        t
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#u" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        u
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#w" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        w
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="class-member-functions">Class Member Functions</h1>
+<h2 id="a">a</h2>
+<ul>
+<li><strong>addNode</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>addNodeDepot</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>aleatorySelectionRCL</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+<li><strong>addRoute</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+</ul>
+<h2 id="b">b</h2>
+<ul>
+<li><strong>BellmanFord</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford/"><strong>main::java::es::ull::esit::utilities::BellmanFord</strong></a>)</li>
+</ul>
+<h2 id="c">c</h2>
+<ul>
+<li><strong>calculateEdges</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford/"><strong>main::java::es::ull::esit::utilities::BellmanFord</strong></a>)</li>
+<li><strong>create</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair/"><strong>main::java::es::ull::esit::utils::Pair</strong></a>)</li>
+<li><strong>calculateDistanceMatrix</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>comprehensiveEvaluation</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+<li><strong>computeGreedySolution</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+</ul>
+<h2 id="e">e</h2>
+<ul>
+<li><strong>ExpositoUtilities</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities/"><strong>main::java::es::ull::esit::utilities::ExpositoUtilities</strong></a>)</li>
+<li><strong>equals</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair/"><strong>main::java::es::ull::esit::utils::Pair</strong></a>, <a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>evaluate</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_evaluator/"><strong>main::java::top::TOPTWEvaluator</strong></a>)</li>
+<li><strong>evaluateCandidateRoute</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+<li><strong>evaluateInsertionInRoute</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+<li><strong>evaluateFitness</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+</ul>
+<h2 id="f">f</h2>
+<ul>
+<li><strong>fuzzySelectionAlphaCutRCL</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+<li><strong>fuzzySelectionBestFDRCL</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+</ul>
+<h2 id="g">g</h2>
+<ul>
+<li><strong>getDistances</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford/"><strong>main::java::es::ull::esit::utilities::BellmanFord</strong></a>)</li>
+<li><strong>getValue</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford/"><strong>main::java::es::ull::esit::utilities::BellmanFord</strong></a>)</li>
+<li><strong>getFormat</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities/"><strong>main::java::es::ull::esit::utilities::ExpositoUtilities</strong></a>)</li>
+<li><strong>getDistance</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>, <a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>getDueTime</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>getMaxRoutes</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>getMaxTimePerRoute</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>getNodes</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>getPOIs</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>getReadyTime</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>getScore</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>getServiceTime</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>getTime</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>getVehicles</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>getX</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>getY</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>getMaxScore</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+<li><strong>getSolution</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+<li><strong>getSolutionTime</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+<li><strong>grasp</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+<li><strong>getId</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_route/"><strong>main::java::top::TOPTWRoute</strong></a>)</li>
+<li><strong>getPredeccesor</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_route/"><strong>main::java::top::TOPTWRoute</strong></a>)</li>
+<li><strong>getSuccesor</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_route/"><strong>main::java::top::TOPTWRoute</strong></a>)</li>
+<li><strong>getAvailableVehicles</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>getCreatedRoutes</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>getIndexRoute</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>getInfoSolution</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>getObjectiveFunctionValue</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>getPositionInRoute</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>getPredecessor</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>getPredecessors</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>getProblem</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>getSuccessor</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>getSuccessors</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>getWaitingTime</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+</ul>
+<h2 id="h">h</h2>
+<ul>
+<li><strong>hasNext</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set/"><strong>main::java::es::ull::esit::utilities::PowerSet</strong></a>)</li>
+<li><strong>hashCode</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair/"><strong>main::java::es::ull::esit::utils::Pair</strong></a>, <a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>handleEmptyCandidates</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+</ul>
+<h2 id="i">i</h2>
+<ul>
+<li><strong>isAcyclic</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities/"><strong>main::java::es::ull::esit::utilities::ExpositoUtilities</strong></a>)</li>
+<li><strong>isDouble</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities/"><strong>main::java::es::ull::esit::utilities::ExpositoUtilities</strong></a>)</li>
+<li><strong>isInteger</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities/"><strong>main::java::es::ull::esit::utilities::ExpositoUtilities</strong></a>)</li>
+<li><strong>iterator</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set/"><strong>main::java::es::ull::esit::utilities::PowerSet</strong></a>)</li>
+<li><strong>isDepot</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>, <a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>initializeDepartureTimes</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+<li><strong>initSolution</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+</ul>
+<h2 id="m">m</h2>
+<ul>
+<li><strong>multiplyMatrices</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities/"><strong>main::java::es::ull::esit::utilities::ExpositoUtilities</strong></a>)</li>
+<li><strong>main</strong> (<a href="../classmain_1_1java_1_1top_1_1_main_t_o_p_t_w/"><strong>main::java::top::MainTOPTW</strong></a>)</li>
+</ul>
+<h2 id="n">n</h2>
+<ul>
+<li><strong>next</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set/"><strong>main::java::es::ull::esit::utilities::PowerSet</strong></a>)</li>
+</ul>
+<h2 id="p">p</h2>
+<ul>
+<li><strong>printFile</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities/"><strong>main::java::es::ull::esit::utilities::ExpositoUtilities</strong></a>)</li>
+<li><strong>processNodeConnections</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities/"><strong>main::java::es::ull::esit::utilities::ExpositoUtilities</strong></a>)</li>
+<li><strong>PowerSet</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set/"><strong>main::java::es::ull::esit::utilities::PowerSet</strong></a>)</li>
+<li><strong>Pair</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair/"><strong>main::java::es::ull::esit::utils::Pair</strong></a>)</li>
+<li><strong>processCandidates</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+<li><strong>printSolution</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+</ul>
+<h2 id="r">r</h2>
+<ul>
+<li><strong>remove</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set/"><strong>main::java::es::ull::esit::utilities::PowerSet</strong></a>)</li>
+<li><strong>readProblem</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_reader/"><strong>main::java::top::TOPTWReader</strong></a>)</li>
+</ul>
+<h2 id="s">s</h2>
+<ul>
+<li><strong>solve</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford/"><strong>main::java::es::ull::esit::utilities::BellmanFord</strong></a>)</li>
+<li><strong>simplifyString</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities/"><strong>main::java::es::ull::esit::utilities::ExpositoUtilities</strong></a>)</li>
+<li><strong>setDueTime</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>setMaxRoutes</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>setMaxTimePerRoute</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>setNodes</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>setReadyTime</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>setScore</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>setServiceTime</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>setX</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>setY</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>selectCandidate</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+<li><strong>setSolution</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+<li><strong>setSolutionTime</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+<li><strong>setId</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_route/"><strong>main::java::top::TOPTWRoute</strong></a>)</li>
+<li><strong>setPredeccesor</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_route/"><strong>main::java::top::TOPTWRoute</strong></a>)</li>
+<li><strong>setSuccesor</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_route/"><strong>main::java::top::TOPTWRoute</strong></a>)</li>
+<li><strong>setAvailableVehicles</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>setObjectiveFunctionValue</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>setPositionInRoute</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>setPredecessor</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>setSuccessor</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+<li><strong>setWaitingTime</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+</ul>
+<h2 id="t">t</h2>
+<ul>
+<li><strong>thereIsPath</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities/"><strong>main::java::es::ull::esit::utilities::ExpositoUtilities</strong></a>)</li>
+<li><strong>TOPTW</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>toString</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w/"><strong>main::java::top::TOPTW</strong></a>)</li>
+<li><strong>TOPTWGRASP</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+<li><strong>TOPTWReader</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_reader/"><strong>main::java::top::TOPTWReader</strong></a>)</li>
+<li><strong>TOPTWRoute</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_route/"><strong>main::java::top::TOPTWRoute</strong></a>)</li>
+<li><strong>TOPTWSolution</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution/"><strong>main::java::top::TOPTWSolution</strong></a>)</li>
+</ul>
+<h2 id="u">u</h2>
+<ul>
+<li><strong>updateRouteCosts</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+<li><strong>updateSolution</strong> (<a href="../classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p/"><strong>main::java::top::TOPTWGRASP</strong></a>)</li>
+</ul>
+<h2 id="w">w</h2>
+<ul>
+<li><strong>writeTextToFile</strong> (<a href="../classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities/"><strong>main::java::es::ull::esit::utilities::ExpositoUtilities</strong></a>)</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c21346df.min.js"></script>
+      
+    
+  </body>
+</html>

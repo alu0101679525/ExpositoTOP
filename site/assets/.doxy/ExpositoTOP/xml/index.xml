@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.18.0" xml:lang="en-US">
+  <compound refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford" kind="class"><name>main::java::es::ull::esit::utilities::BellmanFord</name>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a989c17a3f5f86eb15dbb2d4d2c4eb019" kind="variable"><name>INFINITY</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1afb13cdb9b742d663bd2502fcd6982019" kind="variable"><name>distanceMatrix</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a05eb2eeed01e8044f14f6ac4f133b12e" kind="variable"><name>edges1</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a9de4598bc05add913f6bbe00a487dc5f" kind="variable"><name>edges2</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1af1df2e572ad298f694cb7f8ebb2d52dc" kind="variable"><name>nodes</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a103ec1be62f9fefc628ba609cc6627c3" kind="variable"><name>path</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1ac288201fbfefb81801e8dc47db2f7598" kind="variable"><name>distances</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a1912a91ced3d103718ff0689dc7ba094" kind="variable"><name>value</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a81b051e99adb01604887e57d6a5024ca" kind="function"><name>BellmanFord</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a92682676a303b8432ddfae3eebfc2aa1" kind="function"><name>getDistances</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a25b96f8e3019f9db57e20f49ae6fbd88" kind="function"><name>getValue</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a7c305c2f9e6d20187b4e550e70747f55" kind="function"><name>solve</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1aab9a1929962f81b06c154877494493c9" kind="function"><name>calculateEdges</name></member>
+  </compound>
+  <compound refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities" kind="class"><name>main::java::es::ull::esit::utilities::ExpositoUtilities</name>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1ad1cfbf096d33d193366a8913abd31f3a" kind="variable"><name>DEFAULT_COLUMN_WIDTH</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1a4d654c1e656cfdd5170688558fab3990" kind="variable"><name>ALIGNMENT_LEFT</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1a762b3f0fa11f897773a8a56f769ff430" kind="variable"><name>ALIGNMENT_RIGHT</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1afec7940f8a7bba9b3b22e309f2ab5cae" kind="function"><name>ExpositoUtilities</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1a31213ab7d73468f54c27d3e08f439df4" kind="function"><name>printFile</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1a9a821674dbafee60db441f47e910381f" kind="function"><name>simplifyString</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1a7a422c6a3acc5f2ca10e0e8a65fb8bb1" kind="function"><name>multiplyMatrices</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1aea74cc18ed58798e48967e27700b3c1d" kind="function"><name>writeTextToFile</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1ae72dd13b50afd68faf6d253e7a332b32" kind="function"><name>getFormat</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1afc84df46044595cec695d087eae6c5e1" kind="function"><name>getFormat</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1a67dd763b633ac8dd3b4edfd5e54c41d0" kind="function"><name>getFormat</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1afcae93ce6ee932f2c3aa4c4aa71e1ee1" kind="function"><name>getFormat</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1abdba4322daf02c732c5a196986e1583a" kind="function"><name>getFormat</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1a960140ce5e25a74adfa406c925df4929" kind="function"><name>getFormat</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1a64ff31620d78497914e418a82505920b" kind="function"><name>getFormat</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1a15f64ad14ea911b49714b3b42d13677d" kind="function"><name>getFormat</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1ae4808210dee10357883d402d087bf0fe" kind="function"><name>getFormat</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1ae2af5289a99bd19bf91f1aac76f8fb3b" kind="function"><name>getFormat</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1ad4cd86b96d09f2aab751ea3ed00dc489" kind="function"><name>getFormat</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1abed567eed0eb1ad946a81c1b98b5df2d" kind="function"><name>getFormat</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1a35144f39cf81833dd52dd8c931864e8a" kind="function"><name>isInteger</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1a4bf5682e8361112fa62a0687d3371613" kind="function"><name>isDouble</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1a67b75d97ee202cb923683bdbc2e87b4c" kind="function"><name>isAcyclic</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1ac4aa547faf6f38ed4089c719153e480c" kind="function"><name>thereIsPath</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_exposito_utilities_1afa375fde2b5dedb54de2dc6b88ed79e4" kind="function"><name>processNodeConnections</name></member>
+  </compound>
+  <compound refid="classmain_1_1java_1_1top_1_1_main_t_o_p_t_w" kind="class"><name>main::java::top::MainTOPTW</name>
+    <member refid="classmain_1_1java_1_1top_1_1_main_t_o_p_t_w_1aedeb3cecf2ae5b8b7300b8c433609520" kind="variable"><name>logger</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_main_t_o_p_t_w_1a34152256f38579c1ca49f7c1d1cd1e6d" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair" kind="class"><name>main::java::es::ull::esit::utils::Pair</name>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair_1a5eecc8c765faefa1ed8f1c437549ef1d" kind="variable"><name>first</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair_1a4a2456f187bfc34e839ea0d5f473572f" kind="variable"><name>second</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair_1aafe3e11fabf806f85d018b1f93b1340b" kind="function"><name>Pair</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair_1a5910a047a32dc7a135deed02e38fb5e8" kind="function"><name>equals</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair_1a28abc762b2dcaaee9703bd62208ba98d" kind="function"><name>hashCode</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair_1af78ea976e4b1b6a62c3d0177aa4aaf81" kind="function"><name>create</name></member>
+  </compound>
+  <compound refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set" kind="class"><name>main::java::es::ull::esit::utilities::PowerSet</name>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1accbc5d61dc36aecd73b38b2effab1e4f" kind="variable"><name>arr</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1aef5519d7e3d3c4f035ee517ebfc8ca25" kind="variable"><name>bset</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1a0c0aa64c31a975cd74583753ab8553b2" kind="variable"><name>originalSet</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1a7b3141ca8be37cab0da16dafc35ccaeb" kind="function"><name>PowerSet</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1aeb7af9e391d2ee4722e205f6a1c5af70" kind="function"><name>hasNext</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1aeaad777e596af06d12ab57fb3be57866" kind="function"><name>next</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1a5c1748bdf245a5aa94c2faaed7688504" kind="function"><name>remove</name></member>
+    <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1ab07f33cb9d2444e74ebd20d1efe154bf" kind="function"><name>iterator</name></member>
+  </compound>
+  <compound refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w" kind="class"><name>main::java::top::TOPTW</name>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1ab0340b4d527e43008d44a5c4928424c1" kind="variable"><name>nodes</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a77670029d1691281b2dee8a7f3253579" kind="variable"><name>x</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a1cac610c692fac6aacdc0b555f5b7f7e" kind="variable"><name>y</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a19742c440a4f47466cda678cc2bc4bdf" kind="variable"><name>score</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1ad9d2a0733acbab773b2e52fb432bfafb" kind="variable"><name>readyTime</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a25b16acc2691ef0ca26f55fcb56fb0a4" kind="variable"><name>dueTime</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a2eef6faa489c06f57bc6df3680ce10f4" kind="variable"><name>serviceTime</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a912ffa46e18f873d3fd9ac306618b35a" kind="variable"><name>vehicles</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a45768d1fe4368af42f1b1d8fe048d66f" kind="variable"><name>depots</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1ac258d632d0d0e4a014acf8feaa03635f" kind="variable"><name>maxTimePerRoute</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a921be76f104e85005160ea3aacc176e7" kind="variable"><name>maxRoutes</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a3ee95496c692c4168fd394c17cd8cdd7" kind="variable"><name>distanceMatrix</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1aa7affefc9aed4f218485cfbab30f7198" kind="function"><name>TOPTW</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a3cce6dd1260cda44534754de1b09f2fd" kind="function"><name>isDepot</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a1210d97f94df5509cbd367f751873a09" kind="function"><name>getDistance</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a4e5ad7bb41f8f7f575d13f4a02710a16" kind="function"><name>getDistance</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a1a79cde5cedbcd6b53f9b3cb629bd9a4" kind="function"><name>getDistance</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a02c5f56b032600bfab55512685a71477" kind="function"><name>calculateDistanceMatrix</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a3e894a9c650b985c22e117e9d53062ed" kind="function"><name>getMaxTimePerRoute</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a5eb5120e4416b0883edb59dff54d1149" kind="function"><name>setMaxTimePerRoute</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1aa480bcf1aa55fe981a8b10afbcd4333d" kind="function"><name>getMaxRoutes</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a7ee881684779c63b3ff6ac1ddaf375db" kind="function"><name>setMaxRoutes</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a23b52095f084e4a951d9f98069a68ff7" kind="function"><name>getPOIs</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a2395fd9251e299140dba385d6650de1b" kind="function"><name>getDistance</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a5429d5d7ad5514101a1ae4adf1db7f13" kind="function"><name>getTime</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a153b45dd0085552d02bec9caa9447633" kind="function"><name>getNodes</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a3932e14a10003a0f60716714de22c748" kind="function"><name>setNodes</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1aed606b9c983e7d0d56c95aa34f74582a" kind="function"><name>getX</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1ad5947b1a3a554a6aa0657f8bbbeed7a2" kind="function"><name>setX</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a6ccb62fa28c1717eb8d344f575fc4afc" kind="function"><name>getY</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a8ed0e80b6a1fc14ab8170a8e6aec55f8" kind="function"><name>setY</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a2163ef12ee5d602cfeebf07ddebda849" kind="function"><name>getScore</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a15e0e755ddb5c4250a4c10204479c4d0" kind="function"><name>getScore</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1ae0cc024182110ca4eb2929db3d7fc8f8" kind="function"><name>setScore</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a49c9964512b0d20686b216555b71ebc3" kind="function"><name>getReadyTime</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1ac9eb8ec45b7c4a04693c58b9cdd7303a" kind="function"><name>setReadyTime</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a1c88d3f7b832c37dbf59a3204fade17b" kind="function"><name>getDueTime</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1ab5792ef5fac9695d339a90adde4a78a0" kind="function"><name>setDueTime</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a637f9af43d59f1975ec144284d873f73" kind="function"><name>getServiceTime</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1ad0a56c05e140a3931a65ac9fafe5eddf" kind="function"><name>setServiceTime</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a4e22e3cf2cd5ef8925297c2309a2a062" kind="function"><name>getVehicles</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a6d35078fb814e64230614be5b112b344" kind="function"><name>toString</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a9f2f392003d3d9f32584e1c19deeccff" kind="function"><name>addNode</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1a59104918e92795ea6f48030d965e302a" kind="function"><name>addNodeDepot</name></member>
+  </compound>
+  <compound refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_evaluator" kind="class"><name>main::java::top::TOPTWEvaluator</name>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_evaluator_1ab06df61411b0faf4945321b2e0ec9225" kind="variable"><name>NO_EVALUATED</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_evaluator_1afd7b21c7982747e71f9dd9845ef66c29" kind="function"><name>evaluate</name></member>
+  </compound>
+  <compound refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p" kind="class"><name>main::java::top::TOPTWGRASP</name>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1affe6d0a3c1dd7b78e26e229fa02e212d" kind="variable"><name>NO_EVALUATED</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1aca15c1b418ae6460fa1f2bd1db3d8765" kind="variable"><name>logger</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1adfa18920eb11d827b6341b03ca52f38d" kind="variable"><name>rng</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1ac6ddc3173da8eefbe39607f43eadf399" kind="variable"><name>solution</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1af15fdc231c2bc32a147ec4ac33df894f" kind="variable"><name>solutionTime</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a97b85de3fbbb32c7ac4660a93dd28429" kind="function"><name>TOPTWGRASP</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a27cd561dacbc85b8f9a7c86223aa8a2a" kind="function"><name>grasp</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a693849788795625348575352aefbb534" kind="function"><name>aleatorySelectionRCL</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a987bddf5bf2063268be13af2e77d1030" kind="function"><name>fuzzySelectionBestFDRCL</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a21363cc9e73c514a326b67fd511a0e84" kind="function"><name>fuzzySelectionAlphaCutRCL</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1aa96bb6713239abe94dee4782a7460aa4" kind="function"><name>computeGreedySolution</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1ac4cbe2136b1b773580364edb7ac67dc2" kind="function"><name>updateSolution</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a29e9c976f6bc8bdbe94227cd39bf1029" kind="function"><name>comprehensiveEvaluation</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a793a794592c6623d157dda3b7c7f844e" kind="function"><name>getSolution</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a423cc5a162e7d1db021cd6dd3edc6b62" kind="function"><name>setSolution</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1afc11595d11ca760517c9d0d465282843" kind="function"><name>getSolutionTime</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1adec36ac15cd58355083f8ce8f064ebf7" kind="function"><name>setSolutionTime</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a40380399ba98ba62236572b77fe4497a" kind="function"><name>getMaxScore</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1ad86a72aee0ee433e9d502bd10eee3413" kind="function"><name>initializeDepartureTimes</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a4115a3f1114f33b78ef2278a322c56e2" kind="function"><name>processCandidates</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a62367c6286192b8e63177ed5b62a2ce7" kind="function"><name>handleEmptyCandidates</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a677180e47268a42441c15d8ce7d571ee" kind="function"><name>selectCandidate</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1af7e961d8f5662ae8fed3311ca874952c" kind="function"><name>updateRouteCosts</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a4ab017817c19e3680a8b08b970eb7b7d" kind="function"><name>evaluateCandidateRoute</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a660a8148c069b345bc720355d4a0aae8" kind="function"><name>evaluateInsertionInRoute</name></member>
+  </compound>
+  <compound refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_reader" kind="class"><name>main::java::top::TOPTWReader</name>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_reader_1ac812b52395ce152f1292922dafab3126" kind="function"><name>TOPTWReader</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_reader_1a1b5a4668f749776178012d11914e0d4a" kind="function"><name>readProblem</name></member>
+  </compound>
+  <compound refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_route" kind="class"><name>main::java::top::TOPTWRoute</name>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_route_1a5494dec8c3f4edcf6bb82c35e825d0f9" kind="variable"><name>predecessor</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_route_1a51f2e43db89c9149b1cee5edb4b57392" kind="variable"><name>succesor</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_route_1a569779612e639f98b79af9dbc4c8835d" kind="variable"><name>id</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_route_1a60d55680851a0048678286e4e12b4762" kind="function"><name>TOPTWRoute</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_route_1a615e0d530a3d1b09e2fc958a8c12a229" kind="function"><name>TOPTWRoute</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_route_1ab3b63ba0fa75f7585e9e9f9c0ae43388" kind="function"><name>getPredeccesor</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_route_1a1014f3f937ae4cbfe7b9713544cefae7" kind="function"><name>getSuccesor</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_route_1a3555e381ca7f956f3bc42039267b3470" kind="function"><name>getId</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_route_1a431c596cddbbf87b51f64d5292a3ee9a" kind="function"><name>setPredeccesor</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_route_1ab5afbe2c743d3b2d4a90d44d1ee49e24" kind="function"><name>setSuccesor</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_route_1ad2716d117a917579d83085ea2586c882" kind="function"><name>setId</name></member>
+  </compound>
+  <compound refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution" kind="class"><name>main::java::top::TOPTWSolution</name>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a28ecf0c91f9b6be59c4ac8c685bbd340" kind="variable"><name>NO_INITIALIZED</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a288ed7d8f19677983a77318a4b516d04" kind="variable"><name>problem</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a43bfa5e38e39b2030b490aedbe54f20a" kind="variable"><name>predecessors</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a275e77490c3f2c530f121af9d0d3f004" kind="variable"><name>successors</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a233cdaa5e8c32561a5ebcbf4326ed336" kind="variable"><name>waitingTime</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a55a6cbc0a4942da683842e054b9889d5" kind="variable"><name>positionInRoute</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a9b0a0750c226af6e5113d78b969f29d2" kind="variable"><name>routes</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1aff60d222e4dc1887a26dbe0263a28c8e" kind="variable"><name>availableVehicles</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a7732135695323d5002fa55d1b611c664" kind="variable"><name>objectiveFunctionValue</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a98df61504a9363fa53b0d218eb1267ec" kind="function"><name>TOPTWSolution</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1aa2e4a505934ca0e4a2e1cb2c1c20c8ad" kind="function"><name>initSolution</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a11eb9d48d6252d0a0b34fb490c490310" kind="function"><name>isDepot</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a5edf1cd1932673a860603f992af11e3b" kind="function"><name>equals</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a92b2c74c0b003cbd9ba3d23359ba6a03" kind="function"><name>hashCode</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a25601181c8852582a03c75d6e913d59f" kind="function"><name>getAvailableVehicles</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1acace0d9a9da5710f12ed2a376406359a" kind="function"><name>getCreatedRoutes</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a27043f41a2055e3dc69ed65e081cdc64" kind="function"><name>getDistance</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1af22727f741cd95937d2798e10336defc" kind="function"><name>setAvailableVehicles</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1aeb674902afb8de2cc4a728436f94c8d2" kind="function"><name>getPredecessor</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a5bfd356a3055aa14ec54a34314cd802a" kind="function"><name>getPredecessors</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1ad282e38eae41ec5e509a2e89f3d21645" kind="function"><name>getProblem</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a0ab61f731e54077759287d231656acbb" kind="function"><name>getObjectiveFunctionValue</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a98c54f4a4dd13cadb82d806b99acab9b" kind="function"><name>getPositionInRoute</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a76d8816a5fedce4564e1e2ab93d1591f" kind="function"><name>getSuccessor</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a66be7076f76631b46bdb202b7e1538fb" kind="function"><name>getSuccessors</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a0bee7d1635c6b7dca601b75513e7ab50" kind="function"><name>getIndexRoute</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a2b839babf01a09b9b559547dea215579" kind="function"><name>getWaitingTime</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a1af6ac56395f0fa6330dc5a5eb8eb532" kind="function"><name>setObjectiveFunctionValue</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1ad7a3f29759063c2aee36f7d446ecf341" kind="function"><name>setPositionInRoute</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a6eb554fd239a0e02a11e9464bf4a5583" kind="function"><name>setPredecessor</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1adcbe16ad9880b364fff696416dd84178" kind="function"><name>setSuccessor</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a9dbbe49a28ece0f6120e447cfe642e93" kind="function"><name>setWaitingTime</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a31de26fdf2b67fd0dd5f6f1338c6caf6" kind="function"><name>getInfoSolution</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1afb80c389e5dfe90d9b69ea868f5ca371" kind="function"><name>evaluateFitness</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a49add1c3149ee007253d4b0580cf6ec3" kind="function"><name>addRoute</name></member>
+    <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a7b7c4d93612f1a292484e1c53bc6d5c0" kind="function"><name>printSolution</name></member>
+  </compound>
+  <compound refid="namespacejava_1_1lang" kind="namespace"><name>java::lang</name>
+  </compound>
+  <compound refid="namespacemain" kind="namespace"><name>main</name>
+  </compound>
+  <compound refid="namespacemain_1_1java" kind="namespace"><name>main::java</name>
+  </compound>
+  <compound refid="namespacemain_1_1java_1_1es" kind="namespace"><name>main::java::es</name>
+  </compound>
+  <compound refid="namespacemain_1_1java_1_1es_1_1ull" kind="namespace"><name>main::java::es::ull</name>
+  </compound>
+  <compound refid="namespacemain_1_1java_1_1es_1_1ull_1_1esit" kind="namespace"><name>main::java::es::ull::esit</name>
+  </compound>
+  <compound refid="namespacemain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities" kind="namespace"><name>main::java::es::ull::esit::utilities</name>
+  </compound>
+  <compound refid="namespacemain_1_1java_1_1es_1_1ull_1_1esit_1_1utils" kind="namespace"><name>main::java::es::ull::esit::utils</name>
+  </compound>
+  <compound refid="namespacemain_1_1java_1_1top" kind="namespace"><name>main::java::top</name>
+  </compound>
+  <compound refid="_bellman_ford_8java" kind="file"><name>BellmanFord.java</name>
+  </compound>
+  <compound refid="_exposito_utilities_8java" kind="file"><name>ExpositoUtilities.java</name>
+  </compound>
+  <compound refid="_power_set_8java" kind="file"><name>PowerSet.java</name>
+  </compound>
+  <compound refid="_pair_8java" kind="file"><name>Pair.java</name>
+  </compound>
+  <compound refid="_main_t_o_p_t_w_8java" kind="file"><name>MainTOPTW.java</name>
+  </compound>
+  <compound refid="_t_o_p_t_w_8java" kind="file"><name>TOPTW.java</name>
+  </compound>
+  <compound refid="_t_o_p_t_w_evaluator_8java" kind="file"><name>TOPTWEvaluator.java</name>
+  </compound>
+  <compound refid="_t_o_p_t_w_g_r_a_s_p_8java" kind="file"><name>TOPTWGRASP.java</name>
+  </compound>
+  <compound refid="_t_o_p_t_w_reader_8java" kind="file"><name>TOPTWReader.java</name>
+  </compound>
+  <compound refid="_t_o_p_t_w_route_8java" kind="file"><name>TOPTWRoute.java</name>
+  </compound>
+  <compound refid="_t_o_p_t_w_solution_8java" kind="file"><name>TOPTWSolution.java</name>
+  </compound>
+  <compound refid="dir_f9b1e2a59d62d001356ff527358589e3" kind="dir"><name>src/main/java/es</name>
+  </compound>
+  <compound refid="dir_ff138097d92aca141cd969d7c10ce4fe" kind="dir"><name>src/main/java/es/ull/esit</name>
+  </compound>
+  <compound refid="dir_fd3f6763802dee1ad875f6c80eac0bda" kind="dir"><name>src/main/java</name>
+  </compound>
+  <compound refid="dir_5eb159725f84c66aafd839904a4acdd0" kind="dir"><name>src/main</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+  <compound refid="dir_6ff67e08b8bc917d9697c3f221534daa" kind="dir"><name>src/main/java/top</name>
+  </compound>
+  <compound refid="dir_5e4a5b0330a43e454ff3ad9bcb612958" kind="dir"><name>src/main/java/es/ull</name>
+  </compound>
+  <compound refid="dir_5612c464522cebfe44601dfa3f1684ce" kind="dir"><name>src/main/java/es/ull/esit/utilities</name>
+  </compound>
+  <compound refid="dir_1d50f258775204ffcd31c17842ee0718" kind="dir"><name>src/main/java/es/ull/esit/utils</name>
+  </compound>
+</doxygenindex>

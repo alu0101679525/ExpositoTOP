@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="dir_5612c464522cebfe44601dfa3f1684ce" kind="dir">
+    <compoundname>src/main/java/es/ull/esit/utilities</compoundname>
+    <innerfile refid="_bellman_ford_8java">BellmanFord.java</innerfile>
+    <innerfile refid="_exposito_utilities_8java">ExpositoUtilities.java</innerfile>
+    <innerfile refid="_power_set_8java">PowerSet.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/es/ull/esit/utilities/"/>
+  </compounddef>
+</doxygen>

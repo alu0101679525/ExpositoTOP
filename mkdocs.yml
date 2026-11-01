@@ -1,0 +1,24 @@
+site_name: ExpositoTOP
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: blue
+plugins:
+  - search
+  - mkdoxy:
+      projects:
+        ExpositoTOP:
+          src-dirs: src/main/java
+          full-doc: True
+          doxy-cfg:
+            INPUT: src/main/java
+            RECURSIVE: YES
+            HAVE_DOT: YES
+            CALL_GRAPH: YES
+            CALLER_GRAPH: YES
+nav:
+  - Inicio: index.md
+  - Manual de Usuario: manual.md
+  - Algoritmo GRASP: grasp.md
+  - Registro de Decisiones: decisiones.md

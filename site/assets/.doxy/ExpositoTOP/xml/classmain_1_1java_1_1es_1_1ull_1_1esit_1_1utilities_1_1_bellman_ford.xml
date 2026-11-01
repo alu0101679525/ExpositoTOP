@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford" kind="class" language="Java" prot="public">
+    <compoundname>main::java::es::ull::esit::utilities::BellmanFord</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a989c17a3f5f86eb15dbb2d4d2c4eb019" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int main.java.es.ull.esit.utilities.BellmanFord.INFINITY</definition>
+        <argsstring></argsstring>
+        <name>INFINITY</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.BellmanFord.INFINITY</qualifiedname>
+        <initializer>= 999999</initializer>
+        <briefdescription>
+<para>Valor constante utilizado para representar el infinito en las distancias. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/BellmanFord.java" line="18" column="30" bodyfile="src/main/java/es/ull/esit/utilities/BellmanFord.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1afb13cdb9b742d663bd2502fcd6982019" prot="private" static="no" mutable="no">
+        <type>final int[][]</type>
+        <definition>final int [][] main.java.es.ull.esit.utilities.BellmanFord.distanceMatrix</definition>
+        <argsstring></argsstring>
+        <name>distanceMatrix</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.BellmanFord.distanceMatrix</qualifiedname>
+        <briefdescription>
+<para>Matriz que representa los pesos o distancias entre los nodos del grafo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/BellmanFord.java" line="23" column="23" bodyfile="src/main/java/es/ull/esit/utilities/BellmanFord.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a05eb2eeed01e8044f14f6ac4f133b12e" prot="private" static="no" mutable="no">
+        <type>List&lt; Integer &gt;</type>
+        <definition>List&lt;Integer&gt; main.java.es.ull.esit.utilities.BellmanFord.edges1</definition>
+        <argsstring></argsstring>
+        <name>edges1</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.BellmanFord.edges1</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Lista de nodos de origen de las aristas válidas del grafo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/BellmanFord.java" line="28" column="18" bodyfile="src/main/java/es/ull/esit/utilities/BellmanFord.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a9de4598bc05add913f6bbe00a487dc5f" prot="private" static="no" mutable="no">
+        <type>List&lt; Integer &gt;</type>
+        <definition>List&lt;Integer&gt; main.java.es.ull.esit.utilities.BellmanFord.edges2</definition>
+        <argsstring></argsstring>
+        <name>edges2</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.BellmanFord.edges2</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Lista de nodos de destino de las aristas válidas del grafo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/BellmanFord.java" line="33" column="18" bodyfile="src/main/java/es/ull/esit/utilities/BellmanFord.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1af1df2e572ad298f694cb7f8ebb2d52dc" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int main.java.es.ull.esit.utilities.BellmanFord.nodes</definition>
+        <argsstring></argsstring>
+        <name>nodes</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.BellmanFord.nodes</qualifiedname>
+        <briefdescription>
+<para>Número total de nodos en el grafo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/BellmanFord.java" line="38" column="23" bodyfile="src/main/java/es/ull/esit/utilities/BellmanFord.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a103ec1be62f9fefc628ba609cc6627c3" prot="private" static="no" mutable="no">
+        <type>final List&lt; Integer &gt;</type>
+        <definition>final List&lt;Integer&gt; main.java.es.ull.esit.utilities.BellmanFord.path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.BellmanFord.path</qualifiedname>
+        <briefdescription>
+<para>Lista que almacena la secuencia de nodos que forman el camino más corto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/BellmanFord.java" line="43" column="24" bodyfile="src/main/java/es/ull/esit/utilities/BellmanFord.java" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1ac288201fbfefb81801e8dc47db2f7598" prot="private" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] main.java.es.ull.esit.utilities.BellmanFord.distances</definition>
+        <argsstring></argsstring>
+        <name>distances</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.BellmanFord.distances</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Array que almacena las distancias mínimas calculadas hacia cada nodo. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/BellmanFord.java" line="48" column="17" bodyfile="src/main/java/es/ull/esit/utilities/BellmanFord.java" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a1912a91ced3d103718ff0689dc7ba094" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int main.java.es.ull.esit.utilities.BellmanFord.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.BellmanFord.value</qualifiedname>
+        <briefdescription>
+<para>Valor de coste asociado al nodo final o destino. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/BellmanFord.java" line="53" column="17" bodyfile="src/main/java/es/ull/esit/utilities/BellmanFord.java" bodystart="53" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a81b051e99adb01604887e57d6a5024ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>main.java.es.ull.esit.utilities.BellmanFord.BellmanFord</definition>
+        <argsstring>(int[][] distanceMatrix, int nodes, List&lt; Integer &gt; path)</argsstring>
+        <name>BellmanFord</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.BellmanFord.BellmanFord</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>distanceMatrix</declname>
+          <array>[][]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nodes</declname>
+        </param>
+        <param>
+          <type>List&lt; Integer &gt;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>Constructor de la clase <ref refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford" kindref="compound">BellmanFord</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>distanceMatrix</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Matriz cuadrada con las distancias (pesos) entre nodos. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nodes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Número total de nodos en el grafo. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista donde se almacenará el camino resultante. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/BellmanFord.java" line="61" column="12" bodyfile="src/main/java/es/ull/esit/utilities/BellmanFord.java" bodystart="61" bodyend="67"/>
+        <references refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a81b051e99adb01604887e57d6a5024ca" compoundref="_bellman_ford_8java" startline="61" endline="67">main.java.es.ull.esit.utilities.BellmanFord.BellmanFord</references>
+        <referencedby refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a81b051e99adb01604887e57d6a5024ca" compoundref="_bellman_ford_8java" startline="61" endline="67">main.java.es.ull.esit.utilities.BellmanFord.BellmanFord</referencedby>
+        <referencedby refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a7c305c2f9e6d20187b4e550e70747f55" compoundref="_bellman_ford_8java" startline="110" endline="136">main.java.es.ull.esit.utilities.BellmanFord.solve</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a92682676a303b8432ddfae3eebfc2aa1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int[]</type>
+        <definition>int[] main.java.es.ull.esit.utilities.BellmanFord.getDistances</definition>
+        <argsstring>()</argsstring>
+        <name>getDistances</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.BellmanFord.getDistances</qualifiedname>
+        <briefdescription>
+<para>Obtiene el array con las distancias mínimas calculadas a cada nodo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Array de enteros representando las distancias desde el nodo origen. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/BellmanFord.java" line="92" column="16" bodyfile="src/main/java/es/ull/esit/utilities/BellmanFord.java" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a25b96f8e3019f9db57e20f49ae6fbd88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.es.ull.esit.utilities.BellmanFord.getValue</definition>
+        <argsstring>()</argsstring>
+        <name>getValue</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.BellmanFord.getValue</qualifiedname>
+        <briefdescription>
+<para>Obtiene el valor del coste o distancia del nodo final. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Entero con el valor calculado de la ruta. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/BellmanFord.java" line="100" column="16" bodyfile="src/main/java/es/ull/esit/utilities/BellmanFord.java" bodystart="100" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a7c305c2f9e6d20187b4e550e70747f55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.es.ull.esit.utilities.BellmanFord.solve</definition>
+        <argsstring>()</argsstring>
+        <name>solve</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.BellmanFord.solve</qualifiedname>
+        <briefdescription>
+<para>Ejecuta la lógica principal del algoritmo de Bellman-Ford. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Relaja las aristas repetidamente para encontrar las distancias más cortas y reconstruye el camino resultante hacia atrás basándose en los predecesores. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/BellmanFord.java" line="110" column="17" bodyfile="src/main/java/es/ull/esit/utilities/BellmanFord.java" bodystart="110" bodyend="136"/>
+        <references refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a81b051e99adb01604887e57d6a5024ca" compoundref="_bellman_ford_8java" startline="61" endline="67">main.java.es.ull.esit.utilities.BellmanFord.BellmanFord</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1aab9a1929962f81b06c154877494493c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.es.ull.esit.utilities.BellmanFord.calculateEdges</definition>
+        <argsstring>()</argsstring>
+        <name>calculateEdges</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.BellmanFord.calculateEdges</qualifiedname>
+        <briefdescription>
+<para>Calcula e inicializa las aristas del grafo a partir de la matriz de distancias. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Recorre la matriz y añade a las listas edges1 y edges2 los índices origen y destino donde exista una arista válida (distancia diferente de MAX_VALUE). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/BellmanFord.java" line="75" column="18" bodyfile="src/main/java/es/ull/esit/utilities/BellmanFord.java" bodystart="75" bodyend="86"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Implementación del algoritmo de Bellman-Ford para encontrar los caminos más cortos. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Este algoritmo evalúa las distancias más cortas desde un único nodo origen hacia todos los demás nodos en un grafo dirigido ponderado. </para>
+    </detaileddescription>
+    <location file="src/main/java/es/ull/esit/utilities/BellmanFord.java" line="13" column="7" bodyfile="src/main/java/es/ull/esit/utilities/BellmanFord.java" bodystart="13" bodyend="137"/>
+    <listofallmembers>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a81b051e99adb01604887e57d6a5024ca" prot="public" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::BellmanFord</scope><name>BellmanFord</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1aab9a1929962f81b06c154877494493c9" prot="private" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::BellmanFord</scope><name>calculateEdges</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1afb13cdb9b742d663bd2502fcd6982019" prot="private" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::BellmanFord</scope><name>distanceMatrix</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1ac288201fbfefb81801e8dc47db2f7598" prot="private" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::BellmanFord</scope><name>distances</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a05eb2eeed01e8044f14f6ac4f133b12e" prot="private" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::BellmanFord</scope><name>edges1</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a9de4598bc05add913f6bbe00a487dc5f" prot="private" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::BellmanFord</scope><name>edges2</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a92682676a303b8432ddfae3eebfc2aa1" prot="public" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::BellmanFord</scope><name>getDistances</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a25b96f8e3019f9db57e20f49ae6fbd88" prot="public" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::BellmanFord</scope><name>getValue</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a989c17a3f5f86eb15dbb2d4d2c4eb019" prot="private" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::BellmanFord</scope><name>INFINITY</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1af1df2e572ad298f694cb7f8ebb2d52dc" prot="private" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::BellmanFord</scope><name>nodes</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a103ec1be62f9fefc628ba609cc6627c3" prot="private" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::BellmanFord</scope><name>path</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a7c305c2f9e6d20187b4e550e70747f55" prot="public" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::BellmanFord</scope><name>solve</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_bellman_ford_1a1912a91ced3d103718ff0689dc7ba094" prot="private" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::BellmanFord</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

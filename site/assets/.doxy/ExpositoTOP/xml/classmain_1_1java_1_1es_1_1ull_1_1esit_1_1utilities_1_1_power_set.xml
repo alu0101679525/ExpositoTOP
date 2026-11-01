@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set" kind="class" language="Java" prot="public">
+    <compoundname>main::java::es::ull::esit::utilities::PowerSet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Iterator&lt; Set&lt; E &gt; &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Iterable&lt; Set&lt; E &gt; &gt;</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>E</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1accbc5d61dc36aecd73b38b2effab1e4f" prot="private" static="no" mutable="no">
+        <type>E[]</type>
+        <definition>E [] main.java.es.ull.esit.utilities.PowerSet&lt; E &gt;.arr</definition>
+        <argsstring></argsstring>
+        <name>arr</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.PowerSet.arr</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/PowerSet.java" line="11" column="15" bodyfile="src/main/java/es/ull/esit/utilities/PowerSet.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1aef5519d7e3d3c4f035ee517ebfc8ca25" prot="private" static="no" mutable="no">
+        <type>BitSet</type>
+        <definition>BitSet main.java.es.ull.esit.utilities.PowerSet&lt; E &gt;.bset</definition>
+        <argsstring></argsstring>
+        <name>bset</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.PowerSet.bset</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/PowerSet.java" line="12" column="20" bodyfile="src/main/java/es/ull/esit/utilities/PowerSet.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1a0c0aa64c31a975cd74583753ab8553b2" prot="private" static="no" mutable="no">
+        <type>final Set&lt; E &gt;</type>
+        <definition>final Set&lt;E&gt; main.java.es.ull.esit.utilities.PowerSet&lt; E &gt;.originalSet</definition>
+        <argsstring></argsstring>
+        <name>originalSet</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.PowerSet.originalSet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/PowerSet.java" line="13" column="23" bodyfile="src/main/java/es/ull/esit/utilities/PowerSet.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1a7b3141ca8be37cab0da16dafc35ccaeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>main.java.es.ull.esit.utilities.PowerSet&lt; E &gt;.PowerSet</definition>
+        <argsstring>(Set&lt; E &gt; set)</argsstring>
+        <name>PowerSet</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.PowerSet.PowerSet</qualifiedname>
+        <param>
+          <type>Set&lt; E &gt;</type>
+          <declname>set</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/PowerSet.java" line="16" column="12" bodyfile="src/main/java/es/ull/esit/utilities/PowerSet.java" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1aeb7af9e391d2ee4722e205f6a1c5af70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean main.java.es.ull.esit.utilities.PowerSet&lt; E &gt;.hasNext</definition>
+        <argsstring>()</argsstring>
+        <name>hasNext</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.PowerSet.hasNext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/PowerSet.java" line="23" column="20" bodyfile="src/main/java/es/ull/esit/utilities/PowerSet.java" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1aeaad777e596af06d12ab57fb3be57866" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Set&lt; E &gt;</type>
+        <definition>Set&lt; E &gt; main.java.es.ull.esit.utilities.PowerSet&lt; E &gt;.next</definition>
+        <argsstring>()</argsstring>
+        <name>next</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.PowerSet.next</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/PowerSet.java" line="28" column="16" bodyfile="src/main/java/es/ull/esit/utilities/PowerSet.java" bodystart="28" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1a5c1748bdf245a5aa94c2faaed7688504" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.es.ull.esit.utilities.PowerSet&lt; E &gt;.remove</definition>
+        <argsstring>()</argsstring>
+        <name>remove</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.PowerSet.remove</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/PowerSet.java" line="50" column="17" bodyfile="src/main/java/es/ull/esit/utilities/PowerSet.java" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1ab07f33cb9d2444e74ebd20d1efe154bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Iterator&lt; Set&lt; E &gt; &gt;</type>
+        <definition>Iterator&lt; Set&lt; E &gt; &gt; main.java.es.ull.esit.utilities.PowerSet&lt; E &gt;.iterator</definition>
+        <argsstring>()</argsstring>
+        <name>iterator</name>
+        <qualifiedname>main.java.es.ull.esit.utilities.PowerSet.iterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utilities/PowerSet.java" line="55" column="21" bodyfile="src/main/java/es/ull/esit/utilities/PowerSet.java" bodystart="55" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Iterable&lt; Set&lt; E &gt; &gt;</label>
+      </node>
+      <node id="2">
+        <label>Iterator&lt; Set&lt; E &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>main.java.es.ull.esit.utilities.PowerSet&lt; E &gt;</label>
+        <link refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Iterable&lt; Set&lt; E &gt; &gt;</label>
+      </node>
+      <node id="2">
+        <label>Iterator&lt; Set&lt; E &gt; &gt;</label>
+      </node>
+      <node id="1">
+        <label>main.java.es.ull.esit.utilities.PowerSet&lt; E &gt;</label>
+        <link refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/main/java/es/ull/esit/utilities/PowerSet.java" line="9" column="7" bodyfile="src/main/java/es/ull/esit/utilities/PowerSet.java" bodystart="9" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1accbc5d61dc36aecd73b38b2effab1e4f" prot="private" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::PowerSet</scope><name>arr</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1aef5519d7e3d3c4f035ee517ebfc8ca25" prot="private" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::PowerSet</scope><name>bset</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1aeb7af9e391d2ee4722e205f6a1c5af70" prot="public" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::PowerSet</scope><name>hasNext</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1ab07f33cb9d2444e74ebd20d1efe154bf" prot="public" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::PowerSet</scope><name>iterator</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1aeaad777e596af06d12ab57fb3be57866" prot="public" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::PowerSet</scope><name>next</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1a0c0aa64c31a975cd74583753ab8553b2" prot="private" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::PowerSet</scope><name>originalSet</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1a7b3141ca8be37cab0da16dafc35ccaeb" prot="public" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::PowerSet</scope><name>PowerSet</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utilities_1_1_power_set_1a5c1748bdf245a5aa94c2faaed7688504" prot="public" virt="non-virtual"><scope>main::java::es::ull::esit::utilities::PowerSet</scope><name>remove</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

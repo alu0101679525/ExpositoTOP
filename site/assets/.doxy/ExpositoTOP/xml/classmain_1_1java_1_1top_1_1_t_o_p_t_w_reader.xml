@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_reader" kind="class" language="Java" prot="public">
+    <compoundname>main::java::top::TOPTWReader</compoundname>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_reader_1ac812b52395ce152f1292922dafab3126" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>main.java.top.TOPTWReader.TOPTWReader</definition>
+        <argsstring>()</argsstring>
+        <name>TOPTWReader</name>
+        <qualifiedname>main.java.top.TOPTWReader.TOPTWReader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWReader.java" line="18" column="13" bodyfile="src/main/java/top/TOPTWReader.java" bodystart="18" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_reader_1a1b5a4668f749776178012d11914e0d4a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w" kindref="compound">TOPTW</ref></type>
+        <definition>static TOPTW main.java.top.TOPTWReader.readProblem</definition>
+        <argsstring>(String filePath)</argsstring>
+        <name>readProblem</name>
+        <qualifiedname>main.java.top.TOPTWReader.readProblem</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+<para>Lee un fichero de instancia y construye un objeto <ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w" kindref="compound">TOPTW</ref> con sus datos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ruta del fichero de texto que contiene la definición de la instancia. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Objeto <ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w" kindref="compound">TOPTW</ref> completamente inicializado con los datos del fichero. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWReader.java" line="27" column="25" bodyfile="src/main/java/top/TOPTWReader.java" bodystart="27" bodyend="63"/>
+        <references refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_1aa7affefc9aed4f218485cfbab30f7198" compoundref="_t_o_p_t_w_8java" startline="34" endline="51">main.java.top.TOPTW.TOPTW</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Clase utilitaria para la lectura de instancias del problema desde ficheros de texto. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/top/TOPTWReader.java" line="16" column="7" bodyfile="src/main/java/top/TOPTWReader.java" bodystart="16" bodyend="64"/>
+    <listofallmembers>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_reader_1a1b5a4668f749776178012d11914e0d4a" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWReader</scope><name>readProblem</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_reader_1ac812b52395ce152f1292922dafab3126" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWReader</scope><name>TOPTWReader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

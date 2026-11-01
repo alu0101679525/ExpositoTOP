@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="dir_6ff67e08b8bc917d9697c3f221534daa" kind="dir">
+    <compoundname>src/main/java/top</compoundname>
+    <innerfile refid="_main_t_o_p_t_w_8java">MainTOPTW.java</innerfile>
+    <innerfile refid="_t_o_p_t_w_8java">TOPTW.java</innerfile>
+    <innerfile refid="_t_o_p_t_w_evaluator_8java">TOPTWEvaluator.java</innerfile>
+    <innerfile refid="_t_o_p_t_w_g_r_a_s_p_8java">TOPTWGRASP.java</innerfile>
+    <innerfile refid="_t_o_p_t_w_reader_8java">TOPTWReader.java</innerfile>
+    <innerfile refid="_t_o_p_t_w_route_8java">TOPTWRoute.java</innerfile>
+    <innerfile refid="_t_o_p_t_w_solution_8java">TOPTWSolution.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/top/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair" kind="class" language="Java" prot="public">
+    <compoundname>main::java::es::ull::esit::utils::Pair</compoundname>
+    <templateparamlist>
+      <param>
+        <type>F</type>
+      </param>
+      <param>
+        <type>S</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair_1a5eecc8c765faefa1ed8f1c437549ef1d" prot="public" static="no" mutable="no">
+        <type>final F</type>
+        <definition>final F main.java.es.ull.esit.utils.Pair&lt; F, S &gt;.first</definition>
+        <argsstring></argsstring>
+        <name>first</name>
+        <qualifiedname>main.java.es.ull.esit.utils.Pair.first</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utils/Pair.java" line="5" column="20" bodyfile="src/main/java/es/ull/esit/utils/Pair.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair_1a4a2456f187bfc34e839ea0d5f473572f" prot="public" static="no" mutable="no">
+        <type>final S</type>
+        <definition>final S main.java.es.ull.esit.utils.Pair&lt; F, S &gt;.second</definition>
+        <argsstring></argsstring>
+        <name>second</name>
+        <qualifiedname>main.java.es.ull.esit.utils.Pair.second</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utils/Pair.java" line="6" column="20" bodyfile="src/main/java/es/ull/esit/utils/Pair.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair_1aafe3e11fabf806f85d018b1f93b1340b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>main.java.es.ull.esit.utils.Pair&lt; F, S &gt;.Pair</definition>
+        <argsstring>(F first, S second)</argsstring>
+        <name>Pair</name>
+        <qualifiedname>main.java.es.ull.esit.utils.Pair.Pair</qualifiedname>
+        <param>
+          <type>F</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>S</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utils/Pair.java" line="8" column="12" bodyfile="src/main/java/es/ull/esit/utils/Pair.java" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair_1a5910a047a32dc7a135deed02e38fb5e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean main.java.es.ull.esit.utils.Pair&lt; F, S &gt;.equals</definition>
+        <argsstring>(Object o)</argsstring>
+        <name>equals</name>
+        <qualifiedname>main.java.es.ull.esit.utils.Pair.equals</qualifiedname>
+        <param>
+          <type>Object</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utils/Pair.java" line="14" column="20" bodyfile="src/main/java/es/ull/esit/utils/Pair.java" bodystart="14" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair_1a28abc762b2dcaaee9703bd62208ba98d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.es.ull.esit.utils.Pair&lt; F, S &gt;.hashCode</definition>
+        <argsstring>()</argsstring>
+        <name>hashCode</name>
+        <qualifiedname>main.java.es.ull.esit.utils.Pair.hashCode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utils/Pair.java" line="23" column="16" bodyfile="src/main/java/es/ull/esit/utils/Pair.java" bodystart="23" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair_1af78ea976e4b1b6a62c3d0177aa4aaf81" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static&lt; A, B &gt; Pair&lt; A, B &gt;</type>
+        <definition>static&lt; A, B &gt; Pair&lt; A, B &gt; main.java.es.ull.esit.utils.Pair&lt; F, S &gt;.create</definition>
+        <argsstring>(A a, B b)</argsstring>
+        <name>create</name>
+        <qualifiedname>main.java.es.ull.esit.utils.Pair.create</qualifiedname>
+        <param>
+          <type>A</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>B</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/es/ull/esit/utils/Pair.java" line="27" column="27" bodyfile="src/main/java/es/ull/esit/utils/Pair.java" bodystart="27" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/es/ull/esit/utils/Pair.java" line="4" column="7" bodyfile="src/main/java/es/ull/esit/utils/Pair.java" bodystart="4" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair_1af78ea976e4b1b6a62c3d0177aa4aaf81" prot="public" virt="non-virtual"><scope>main::java::es::ull::esit::utils::Pair</scope><name>create</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair_1a5910a047a32dc7a135deed02e38fb5e8" prot="public" virt="non-virtual"><scope>main::java::es::ull::esit::utils::Pair</scope><name>equals</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair_1a5eecc8c765faefa1ed8f1c437549ef1d" prot="public" virt="non-virtual"><scope>main::java::es::ull::esit::utils::Pair</scope><name>first</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair_1a28abc762b2dcaaee9703bd62208ba98d" prot="public" virt="non-virtual"><scope>main::java::es::ull::esit::utils::Pair</scope><name>hashCode</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair_1aafe3e11fabf806f85d018b1f93b1340b" prot="public" virt="non-virtual"><scope>main::java::es::ull::esit::utils::Pair</scope><name>Pair</name></member>
+      <member refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair_1a4a2456f187bfc34e839ea0d5f473572f" prot="public" virt="non-virtual"><scope>main::java::es::ull::esit::utils::Pair</scope><name>second</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

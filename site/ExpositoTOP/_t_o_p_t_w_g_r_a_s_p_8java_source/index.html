@@ -1,0 +1,721 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.0">
+    
+    
+      
+        <title>File TOPTWGRASP.java - ExpositoTOP</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#file-toptwgraspjava" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="ExpositoTOP" class="md-header__button md-logo" aria-label="ExpositoTOP" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ExpositoTOP
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              File TOPTWGRASP.java
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="ExpositoTOP" class="md-nav__button md-logo" aria-label="ExpositoTOP" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    ExpositoTOP
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manual de Usuario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../grasp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Algoritmo GRASP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../decisiones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Registro de Decisiones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="file-toptwgraspjava">File TOPTWGRASP.java</h1>
+<p><a href="../files/"><strong>File List</strong></a> <strong>&gt;</strong> <a href="../dir_fd3f6763802dee1ad875f6c80eac0bda/"><strong>java</strong></a> <strong>&gt;</strong> <a href="../dir_6ff67e08b8bc917d9697c3f221534daa/"><strong>top</strong></a> <strong>&gt;</strong> <a href="../_t_o_p_t_w_g_r_a_s_p_8java/"><strong>TOPTWGRASP.java</strong></a></p>
+<p><a href="../_t_o_p_t_w_g_r_a_s_p_8java/">Go to the documentation of this file</a></p>
+<pre><code class="language-Java">package main.java.top;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+public class TOPTWGRASP {
+    public static final double NO_EVALUATED = -1.0;
+    private static final Logger logger = Logger.getLogger(TOPTWGRASP.class.getName());
+    private static final Random rng = new Random();
+
+    private TOPTWSolution solution;
+    private int solutionTime;
+
+    public TOPTWGRASP(TOPTWSolution sol){
+        this.solution = sol;
+        this.solutionTime = 0;
+    }
+
+    public void grasp(int maxIterations, int maxSizeRCL) {
+        double averageFitness = 0.0;
+        double bestSolution = 0.0;
+        for(int i = 0; i &lt; maxIterations; i++) {
+
+            this.computeGreedySolution(maxSizeRCL);
+
+            double fitness = this.solution.evaluateFitness();
+            logger.info(this.solution.getInfoSolution());
+            averageFitness += fitness;
+            if(bestSolution &lt; fitness) {
+                bestSolution = fitness;
+            }
+        }
+        averageFitness = averageFitness/maxIterations;
+
+        if(logger.isLoggable(Level.INFO)) {
+            logger.info(String.format(&quot; --&gt; MEDIA: %f&quot;, averageFitness));
+            logger.info(String.format(&quot; --&gt; MEJOR SOLUCION: %f&quot;, bestSolution));
+        }
+    }
+
+    public int aleatorySelectionRCL(int maxTRCL) {
+        return rng.nextInt(maxTRCL);
+    }
+
+    public int fuzzySelectionBestFDRCL(List&lt; double[] &gt; rcl) {
+        double[] membershipFunction = new double[rcl.size()];
+        double maxSc = this.getMaxScore();
+        for(int j=0; j &lt; rcl.size(); j++) {
+            membershipFunction[j] = 1 - ((rcl.get(j)[4])/maxSc);
+        }
+        double minMemFunc = Double.MAX_VALUE;
+        int posSelected = -1;
+        for(int i = 0; i &lt; rcl.size(); i++) {
+            if(minMemFunc &gt; membershipFunction[i]) {
+                minMemFunc = membershipFunction[i];
+                posSelected = i;
+            }
+        }
+        return posSelected;
+    }
+
+    public int fuzzySelectionAlphaCutRCL(List&lt; double[] &gt; rcl, double alpha) {
+        List&lt; double[] &gt; rclAlphaCut = new ArrayList&lt;&gt;();
+        List&lt; Integer &gt; rclPos = new ArrayList&lt;&gt;();
+        double[] membershipFunction = new double[rcl.size()];
+        double maxSc = this.getMaxScore();
+        for(int j=0; j &lt; rcl.size(); j++) {
+            membershipFunction[j] = 1 - ((rcl.get(j)[4])/maxSc);
+            if(membershipFunction[j] &lt;= alpha) {
+                rclAlphaCut.add(rcl.get(j));
+                rclPos.add(j);
+            }
+        }
+        int posSelected;
+        if(!rclAlphaCut.isEmpty()) {
+            posSelected = rclPos.get(aleatorySelectionRCL(rclAlphaCut.size()));
+        } else {
+            posSelected = aleatorySelectionRCL(rcl.size());
+        }
+        return posSelected;
+    }
+
+    public void computeGreedySolution(int maxSizeRCL) {
+        this.solution.initSolution();
+
+        List&lt;List&lt;Double&gt;&gt; departureTimesPerClient = new ArrayList&lt;&gt;();
+        initializeDepartureTimes(departureTimesPerClient);
+
+        List&lt;Integer&gt; customers = new ArrayList&lt;&gt;();
+        for(int j = 1; j &lt;= this.solution.getProblem().getPOIs(); j++) { customers.add(j); }
+
+        List&lt; double[] &gt; candidates = this.comprehensiveEvaluation(customers, departureTimesPerClient);
+        Collections.sort(candidates, (a, b) -&gt; Double.compare(a[a.length-2], b[b.length-2]));
+
+        boolean existCandidates = true;
+
+        while(!customers.isEmpty() &amp;&amp; existCandidates) {
+            if(!candidates.isEmpty()) {
+                processCandidates(maxSizeRCL, candidates, customers, departureTimesPerClient);
+            } else {
+                existCandidates = handleEmptyCandidates(departureTimesPerClient);
+            }
+            candidates.clear();
+            candidates = this.comprehensiveEvaluation(customers, departureTimesPerClient);
+            Collections.sort(candidates, (a, b) -&gt; Double.compare(a[a.length-2], b[b.length-2]));
+        }
+    }
+
+    private void initializeDepartureTimes(List&lt;List&lt;Double&gt;&gt; departureTimesPerClient) {
+        List&lt;Double&gt; init = new ArrayList&lt;&gt;();
+        int totalNodes = this.solution.getProblem().getPOIs() + this.solution.getProblem().getVehicles();
+        for(int z = 0; z &lt; totalNodes; z++) {
+            init.add(0.0);
+        }
+        departureTimesPerClient.add(0, init);
+    }
+
+    private void processCandidates(int maxSizeRCL, List&lt;double[]&gt; candidates, List&lt;Integer&gt; customers, List&lt;List&lt;Double&gt;&gt; departureTimesPerClient) {
+        List&lt; double[] &gt; rcl = new ArrayList&lt;&gt;();
+        int maxTRCL = Math.min(maxSizeRCL, candidates.size());
+        for(int j=0; j &lt; maxTRCL; j++) {
+            rcl.add(candidates.get(j));
+        }
+
+        int posSelected = selectCandidate(maxTRCL, rcl);
+        double[] candidateSelected = rcl.get(posSelected);
+
+        for(int j=0; j &lt; customers.size(); j++) {
+            if(customers.get(j).equals((int)candidateSelected[0])) {
+                customers.remove(j);
+                break;
+            }
+        }
+        updateSolution(candidateSelected, departureTimesPerClient);
+    }
+
+    private boolean handleEmptyCandidates(List&lt;List&lt;Double&gt;&gt; departureTimesPerClient) {
+        if(this.solution.getCreatedRoutes() &lt; this.solution.getProblem().getVehicles()) {
+            this.solution.addRoute();
+            List&lt;Double&gt; initNew = new ArrayList&lt;&gt;();
+            int totalNodes = this.solution.getProblem().getPOIs() + this.solution.getProblem().getVehicles();
+            for(int z = 0; z &lt; totalNodes; z++) {
+                initNew.add(0.0);
+            }
+            departureTimesPerClient.add(initNew);
+            return true;
+        }
+        return false;
+    }
+
+    private int selectCandidate(int maxTRCL, List&lt;double[]&gt; rcl) {
+        int posSelected;
+        int selection = 3;
+        double alpha = 0.8;
+        switch (selection) {
+            case 1:  posSelected = this.aleatorySelectionRCL(maxTRCL);
+                break;
+            case 2:  posSelected = this.fuzzySelectionBestFDRCL(rcl);
+                break;
+            case 3:  posSelected = this.fuzzySelectionAlphaCutRCL(rcl, alpha);
+                break;
+            default: posSelected = this.aleatorySelectionRCL(maxTRCL);
+                break;
+        }
+        return posSelected;
+    }
+
+    public void updateSolution(double[] candidateSelected, List&lt; List&lt; Double &gt; &gt; departureTimes) {
+        int candidateNode = (int)candidateSelected[0];
+        int routeIndex = (int)candidateSelected[1];
+        int predecessorNode = (int)candidateSelected[2];
+
+        this.solution.setPredecessor(candidateNode, predecessorNode);
+        this.solution.setSuccessor(candidateNode, this.solution.getSuccessor(predecessorNode));
+        this.solution.setSuccessor(predecessorNode, candidateNode);
+        this.solution.setPredecessor(this.solution.getSuccessor(candidateNode), candidateNode);
+
+        updateRouteCosts(routeIndex, predecessorNode, departureTimes);
+    }
+
+    private void updateRouteCosts(int routeIndex, int startNode, List&lt;List&lt;Double&gt;&gt; departureTimes) {
+        double costInsertionPre = departureTimes.get(routeIndex).get(startNode);
+        List&lt;Double&gt; route = departureTimes.get(routeIndex);
+        int pre = startNode;
+        int suc;
+        int depot = this.solution.getIndexRoute(routeIndex);
+
+        do {
+            suc = this.solution.getSuccessor(pre);
+            costInsertionPre += this.solution.getDistance(pre, suc);
+
+            if(costInsertionPre &lt; this.solution.getProblem().getReadyTime(suc)) {
+                costInsertionPre = this.solution.getProblem().getReadyTime(suc);
+            }
+            costInsertionPre += this.solution.getProblem().getServiceTime(suc);
+
+            if(!this.solution.isDepot(suc)) {
+                route.set(suc, costInsertionPre);
+            }
+            pre = suc;
+        } while(suc != depot);
+
+        departureTimes.set(routeIndex, route);
+    }
+
+    public List&lt; double[] &gt; comprehensiveEvaluation(List&lt;Integer&gt; customers, List&lt; List&lt; Double &gt; &gt; departureTimes) {
+        List&lt; double[] &gt; candidatesList = new ArrayList&lt;&gt;();
+        double[] infoCandidate = new double[5];
+        infoCandidate[0] = -1;
+        infoCandidate[1] = -1;
+        infoCandidate[2] = -1;
+        infoCandidate[3] = Double.MAX_VALUE;
+        infoCandidate[4] = -1;
+
+        for(int candidate : customers) {
+            for(int k = 0; k &lt; this.solution.getCreatedRoutes(); k++) {
+                evaluateCandidateRoute(candidate, k, departureTimes, infoCandidate);
+            }
+
+            if(infoCandidate[0]!=-1 &amp;&amp; infoCandidate[1]!=-1 &amp;&amp; infoCandidate[2]!=-1 &amp;&amp; infoCandidate[3] != Double.MAX_VALUE &amp;&amp; infoCandidate[4]!=-1) {
+                double[] infoCandidate2 = new double[5];
+                infoCandidate2[0] = infoCandidate[0];
+                infoCandidate2[1] = infoCandidate[1];
+                infoCandidate2[2] = infoCandidate[2];
+                infoCandidate2[3] = infoCandidate[3];
+                infoCandidate2[4] = infoCandidate[4];
+                candidatesList.add(infoCandidate2);
+            }
+            infoCandidate[0] = -1;
+            infoCandidate[1] = -1;
+            infoCandidate[2] = -1;
+            infoCandidate[3] = Double.MAX_VALUE;
+            infoCandidate[4] = -1;
+        }
+
+        return candidatesList;
+    }
+
+    private void evaluateCandidateRoute(int candidate, int k, List&lt; List&lt; Double &gt; &gt; departureTimes, double[] infoCandidate) {
+        int depot = this.solution.getIndexRoute(k);
+        int pre = depot;
+        int suc;
+
+        do {
+            suc = this.solution.getSuccessor(pre);
+            double costInsertion = evaluateInsertionInRoute(candidate, k, pre, suc, departureTimes, depot);
+
+            if(costInsertion != -1 &amp;&amp; costInsertion &lt; infoCandidate[3]) {
+                infoCandidate[0] = candidate;
+                infoCandidate[1] = k;
+                infoCandidate[2] = pre;
+                infoCandidate[3] = costInsertion;
+                infoCandidate[4] = this.solution.getProblem().getScore(candidate);
+            }
+
+            pre = suc;
+        } while(suc != depot);
+    }
+
+    private double evaluateInsertionInRoute(int candidate, int k, int pre, int suc, List&lt; List&lt; Double &gt; &gt; departureTimes, int depot) {
+        double timesUntilPre = departureTimes.get(k).get(pre) + this.solution.getDistance(pre, candidate);
+        if(timesUntilPre &gt;= (this.solution.getProblem().getDueTime(candidate))) {
+            return -1;
+        }
+
+        double costCand = Math.max(timesUntilPre, this.solution.getProblem().getReadyTime(candidate)) + this.solution.getProblem().getServiceTime(candidate);
+        if(costCand &gt; this.solution.getProblem().getMaxTimePerRoute()) { return -1; }
+
+        double timesUntilSuc = costCand + this.solution.getDistance(candidate, suc);
+        if(timesUntilSuc &gt;= (this.solution.getProblem().getDueTime(suc))) { return -1; }
+
+        double costSuc = Math.max(timesUntilSuc, this.solution.getProblem().getReadyTime(suc)) + this.solution.getProblem().getServiceTime(suc);
+        if(costSuc &gt; this.solution.getProblem().getMaxTimePerRoute()) { return -1; }
+
+        double costInsertion = costSuc;
+        int pre2 = suc;
+        int suc2;
+
+        if(suc != depot) {
+            do {
+                suc2 = this.solution.getSuccessor(pre2);
+                double timesUntilSuc2 = costInsertion + this.solution.getDistance(pre2, suc2);
+                if(timesUntilSuc2 &gt;= (this.solution.getProblem().getDueTime(suc2))) { return -1; }
+
+                costInsertion = Math.max(timesUntilSuc2, this.solution.getProblem().getReadyTime(suc2)) + this.solution.getProblem().getServiceTime(suc2);
+                if(costInsertion &gt; this.solution.getProblem().getMaxTimePerRoute()) { return -1; }
+                pre2 = suc2;
+            } while(suc2 != depot);
+        }
+
+        return costInsertion;
+    }
+
+    public TOPTWSolution getSolution() {
+        return solution;
+    }
+
+    public void setSolution(TOPTWSolution solution) {
+        this.solution = solution;
+    }
+
+    public int getSolutionTime() {
+        return solutionTime;
+    }
+
+    public void setSolutionTime(int solutionTime) {
+        this.solutionTime = solutionTime;
+    }
+
+    public double getMaxScore() {
+        double maxSc = -1.0;
+        for(int i = 0; i &lt; this.solution.getProblem().getScore().length; i++) {
+            if(this.solution.getProblem().getScore(i) &gt; maxSc)
+                maxSc = this.solution.getProblem().getScore(i);
+        }
+        return maxSc;
+    }
+}
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c21346df.min.js"></script>
+      
+    
+  </body>
+</html>

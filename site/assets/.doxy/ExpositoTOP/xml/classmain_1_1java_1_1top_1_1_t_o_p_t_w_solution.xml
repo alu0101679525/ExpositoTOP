@@ -1,0 +1,647 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution" kind="class" language="Java" prot="public">
+    <compoundname>main::java::top::TOPTWSolution</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a28ecf0c91f9b6be59c4ac8c685bbd340" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int main.java.top.TOPTWSolution.NO_INITIALIZED</definition>
+        <argsstring></argsstring>
+        <name>NO_INITIALIZED</name>
+        <qualifiedname>main.java.top.TOPTWSolution.NO_INITIALIZED</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="17" column="29" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a288ed7d8f19677983a77318a4b516d04" prot="private" static="no" mutable="no">
+        <type><ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w" kindref="compound">TOPTW</ref></type>
+        <definition>TOPTW main.java.top.TOPTWSolution.problem</definition>
+        <argsstring></argsstring>
+        <name>problem</name>
+        <qualifiedname>main.java.top.TOPTWSolution.problem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="18" column="19" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a43bfa5e38e39b2030b490aedbe54f20a" prot="private" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] main.java.top.TOPTWSolution.predecessors</definition>
+        <argsstring></argsstring>
+        <name>predecessors</name>
+        <qualifiedname>main.java.top.TOPTWSolution.predecessors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="19" column="17" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a275e77490c3f2c530f121af9d0d3f004" prot="private" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] main.java.top.TOPTWSolution.successors</definition>
+        <argsstring></argsstring>
+        <name>successors</name>
+        <qualifiedname>main.java.top.TOPTWSolution.successors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="20" column="17" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a233cdaa5e8c32561a5ebcbf4326ed336" prot="private" static="no" mutable="no">
+        <type>double[]</type>
+        <definition>double [] main.java.top.TOPTWSolution.waitingTime</definition>
+        <argsstring></argsstring>
+        <name>waitingTime</name>
+        <qualifiedname>main.java.top.TOPTWSolution.waitingTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="21" column="20" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a55a6cbc0a4942da683842e054b9889d5" prot="private" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] main.java.top.TOPTWSolution.positionInRoute</definition>
+        <argsstring></argsstring>
+        <name>positionInRoute</name>
+        <qualifiedname>main.java.top.TOPTWSolution.positionInRoute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="22" column="17" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a9b0a0750c226af6e5113d78b969f29d2" prot="private" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] main.java.top.TOPTWSolution.routes</definition>
+        <argsstring></argsstring>
+        <name>routes</name>
+        <qualifiedname>main.java.top.TOPTWSolution.routes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="24" column="17" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1aff60d222e4dc1887a26dbe0263a28c8e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int main.java.top.TOPTWSolution.availableVehicles</definition>
+        <argsstring></argsstring>
+        <name>availableVehicles</name>
+        <qualifiedname>main.java.top.TOPTWSolution.availableVehicles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="25" column="17" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a7732135695323d5002fa55d1b611c664" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double main.java.top.TOPTWSolution.objectiveFunctionValue</definition>
+        <argsstring></argsstring>
+        <name>objectiveFunctionValue</name>
+        <qualifiedname>main.java.top.TOPTWSolution.objectiveFunctionValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="26" column="20" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a98df61504a9363fa53b0d218eb1267ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>main.java.top.TOPTWSolution.TOPTWSolution</definition>
+        <argsstring>(TOPTW problem)</argsstring>
+        <name>TOPTWSolution</name>
+        <qualifiedname>main.java.top.TOPTWSolution.TOPTWSolution</qualifiedname>
+        <param>
+          <type><ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w" kindref="compound">TOPTW</ref></type>
+          <declname>problem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="28" column="12" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="28" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1aa2e4a505934ca0e4a2e1cb2c1c20c8ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.top.TOPTWSolution.initSolution</definition>
+        <argsstring>()</argsstring>
+        <name>initSolution</name>
+        <qualifiedname>main.java.top.TOPTWSolution.initSolution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="43" column="17" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="43" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a11eb9d48d6252d0a0b34fb490c490310" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean main.java.top.TOPTWSolution.isDepot</definition>
+        <argsstring>(int c)</argsstring>
+        <name>isDepot</name>
+        <qualifiedname>main.java.top.TOPTWSolution.isDepot</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="56" column="20" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="56" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a5edf1cd1932673a860603f992af11e3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean main.java.top.TOPTWSolution.equals</definition>
+        <argsstring>(Object obj)</argsstring>
+        <name>equals</name>
+        <qualifiedname>main.java.top.TOPTWSolution.equals</qualifiedname>
+        <param>
+          <type>Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="66" column="20" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="66" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a92b2c74c0b003cbd9ba3d23359ba6a03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.top.TOPTWSolution.hashCode</definition>
+        <argsstring>()</argsstring>
+        <name>hashCode</name>
+        <qualifiedname>main.java.top.TOPTWSolution.hashCode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="78" column="16" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="78" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a25601181c8852582a03c75d6e913d59f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.top.TOPTWSolution.getAvailableVehicles</definition>
+        <argsstring>()</argsstring>
+        <name>getAvailableVehicles</name>
+        <qualifiedname>main.java.top.TOPTWSolution.getAvailableVehicles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="82" column="16" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="82" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1acace0d9a9da5710f12ed2a376406359a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.top.TOPTWSolution.getCreatedRoutes</definition>
+        <argsstring>()</argsstring>
+        <name>getCreatedRoutes</name>
+        <qualifiedname>main.java.top.TOPTWSolution.getCreatedRoutes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="86" column="16" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="86" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a27043f41a2055e3dc69ed65e081cdc64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double main.java.top.TOPTWSolution.getDistance</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>getDistance</name>
+        <qualifiedname>main.java.top.TOPTWSolution.getDistance</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="90" column="19" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="90" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1af22727f741cd95937d2798e10336defc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.top.TOPTWSolution.setAvailableVehicles</definition>
+        <argsstring>(int availableVehicles)</argsstring>
+        <name>setAvailableVehicles</name>
+        <qualifiedname>main.java.top.TOPTWSolution.setAvailableVehicles</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>availableVehicles</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="94" column="17" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="94" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1aeb674902afb8de2cc4a728436f94c8d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.top.TOPTWSolution.getPredecessor</definition>
+        <argsstring>(int customer)</argsstring>
+        <name>getPredecessor</name>
+        <qualifiedname>main.java.top.TOPTWSolution.getPredecessor</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>customer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="98" column="16" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="98" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a5bfd356a3055aa14ec54a34314cd802a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int[]</type>
+        <definition>int[] main.java.top.TOPTWSolution.getPredecessors</definition>
+        <argsstring>()</argsstring>
+        <name>getPredecessors</name>
+        <qualifiedname>main.java.top.TOPTWSolution.getPredecessors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="102" column="16" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="102" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1ad282e38eae41ec5e509a2e89f3d21645" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w" kindref="compound">TOPTW</ref></type>
+        <definition>TOPTW main.java.top.TOPTWSolution.getProblem</definition>
+        <argsstring>()</argsstring>
+        <name>getProblem</name>
+        <qualifiedname>main.java.top.TOPTWSolution.getProblem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="106" column="18" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="106" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a0ab61f731e54077759287d231656acbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double main.java.top.TOPTWSolution.getObjectiveFunctionValue</definition>
+        <argsstring>()</argsstring>
+        <name>getObjectiveFunctionValue</name>
+        <qualifiedname>main.java.top.TOPTWSolution.getObjectiveFunctionValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="110" column="19" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="110" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a98c54f4a4dd13cadb82d806b99acab9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.top.TOPTWSolution.getPositionInRoute</definition>
+        <argsstring>(int customer)</argsstring>
+        <name>getPositionInRoute</name>
+        <qualifiedname>main.java.top.TOPTWSolution.getPositionInRoute</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>customer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="114" column="16" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="114" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a76d8816a5fedce4564e1e2ab93d1591f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.top.TOPTWSolution.getSuccessor</definition>
+        <argsstring>(int customer)</argsstring>
+        <name>getSuccessor</name>
+        <qualifiedname>main.java.top.TOPTWSolution.getSuccessor</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>customer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="118" column="16" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="118" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a66be7076f76631b46bdb202b7e1538fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int[]</type>
+        <definition>int[] main.java.top.TOPTWSolution.getSuccessors</definition>
+        <argsstring>()</argsstring>
+        <name>getSuccessors</name>
+        <qualifiedname>main.java.top.TOPTWSolution.getSuccessors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="122" column="16" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="122" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a0bee7d1635c6b7dca601b75513e7ab50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.top.TOPTWSolution.getIndexRoute</definition>
+        <argsstring>(int index)</argsstring>
+        <name>getIndexRoute</name>
+        <qualifiedname>main.java.top.TOPTWSolution.getIndexRoute</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="126" column="16" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="126" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a2b839babf01a09b9b559547dea215579" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double main.java.top.TOPTWSolution.getWaitingTime</definition>
+        <argsstring>(int customer)</argsstring>
+        <name>getWaitingTime</name>
+        <qualifiedname>main.java.top.TOPTWSolution.getWaitingTime</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>customer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="130" column="19" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="130" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a1af6ac56395f0fa6330dc5a5eb8eb532" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.top.TOPTWSolution.setObjectiveFunctionValue</definition>
+        <argsstring>(double objectiveFunctionValue)</argsstring>
+        <name>setObjectiveFunctionValue</name>
+        <qualifiedname>main.java.top.TOPTWSolution.setObjectiveFunctionValue</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>objectiveFunctionValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="134" column="17" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="134" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1ad7a3f29759063c2aee36f7d446ecf341" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.top.TOPTWSolution.setPositionInRoute</definition>
+        <argsstring>(int customer, int position)</argsstring>
+        <name>setPositionInRoute</name>
+        <qualifiedname>main.java.top.TOPTWSolution.setPositionInRoute</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>customer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="138" column="17" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="138" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a6eb554fd239a0e02a11e9464bf4a5583" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.top.TOPTWSolution.setPredecessor</definition>
+        <argsstring>(int customer, int predecessor)</argsstring>
+        <name>setPredecessor</name>
+        <qualifiedname>main.java.top.TOPTWSolution.setPredecessor</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>customer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>predecessor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="142" column="17" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="142" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1adcbe16ad9880b364fff696416dd84178" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.top.TOPTWSolution.setSuccessor</definition>
+        <argsstring>(int customer, int succesor)</argsstring>
+        <name>setSuccessor</name>
+        <qualifiedname>main.java.top.TOPTWSolution.setSuccessor</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>customer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>succesor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="146" column="17" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="146" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a9dbbe49a28ece0f6120e447cfe642e93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.top.TOPTWSolution.setWaitingTime</definition>
+        <argsstring>(int customer, int waitingTime)</argsstring>
+        <name>setWaitingTime</name>
+        <qualifiedname>main.java.top.TOPTWSolution.setWaitingTime</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>customer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>waitingTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="150" column="17" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="150" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a31de26fdf2b67fd0dd5f6f1338c6caf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String main.java.top.TOPTWSolution.getInfoSolution</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoSolution</name>
+        <qualifiedname>main.java.top.TOPTWSolution.getInfoSolution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="154" column="19" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="154" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1afb80c389e5dfe90d9b69ea868f5ca371" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double main.java.top.TOPTWSolution.evaluateFitness</definition>
+        <argsstring>()</argsstring>
+        <name>evaluateFitness</name>
+        <qualifiedname>main.java.top.TOPTWSolution.evaluateFitness</qualifiedname>
+        <briefdescription>
+<para>Evalúa la función objetivo de la solución actual. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Suma total de las puntuaciones (scores) obtenidas en todas las rutas creadas. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="229" column="19" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="229" bodyend="245"/>
+        <referencedby refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a27cd561dacbc85b8f9a7c86223aa8a2a" compoundref="_t_o_p_t_w_g_r_a_s_p_8java" startline="35" endline="55">main.java.top.TOPTWGRASP.grasp</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a49add1c3149ee007253d4b0580cf6ec3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.top.TOPTWSolution.addRoute</definition>
+        <argsstring>()</argsstring>
+        <name>addRoute</name>
+        <qualifiedname>main.java.top.TOPTWSolution.addRoute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="247" column="16" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="247" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a7b7c4d93612f1a292484e1c53bc6d5c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double main.java.top.TOPTWSolution.printSolution</definition>
+        <argsstring>()</argsstring>
+        <name>printSolution</name>
+        <qualifiedname>main.java.top.TOPTWSolution.printSolution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWSolution.java" line="266" column="19" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="266" bodyend="288"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Representa una solución factible para el problema <ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w" kindref="compound">TOPTW</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Gestiona las rutas construidas, asignando predecesores y sucesores para cada cliente, calculando tiempos de espera, y evaluando la función objetivo (fitness). </para>
+    </detaileddescription>
+    <location file="src/main/java/top/TOPTWSolution.java" line="16" column="7" bodyfile="src/main/java/top/TOPTWSolution.java" bodystart="16" bodyend="289"/>
+    <listofallmembers>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a49add1c3149ee007253d4b0580cf6ec3" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>addRoute</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1aff60d222e4dc1887a26dbe0263a28c8e" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>availableVehicles</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a5edf1cd1932673a860603f992af11e3b" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>equals</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1afb80c389e5dfe90d9b69ea868f5ca371" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>evaluateFitness</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a25601181c8852582a03c75d6e913d59f" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>getAvailableVehicles</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1acace0d9a9da5710f12ed2a376406359a" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>getCreatedRoutes</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a27043f41a2055e3dc69ed65e081cdc64" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>getDistance</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a0bee7d1635c6b7dca601b75513e7ab50" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>getIndexRoute</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a31de26fdf2b67fd0dd5f6f1338c6caf6" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>getInfoSolution</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a0ab61f731e54077759287d231656acbb" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>getObjectiveFunctionValue</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a98c54f4a4dd13cadb82d806b99acab9b" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>getPositionInRoute</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1aeb674902afb8de2cc4a728436f94c8d2" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>getPredecessor</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a5bfd356a3055aa14ec54a34314cd802a" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>getPredecessors</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1ad282e38eae41ec5e509a2e89f3d21645" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>getProblem</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a76d8816a5fedce4564e1e2ab93d1591f" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>getSuccessor</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a66be7076f76631b46bdb202b7e1538fb" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>getSuccessors</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a2b839babf01a09b9b559547dea215579" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>getWaitingTime</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a92b2c74c0b003cbd9ba3d23359ba6a03" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>hashCode</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1aa2e4a505934ca0e4a2e1cb2c1c20c8ad" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>initSolution</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a11eb9d48d6252d0a0b34fb490c490310" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>isDepot</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a28ecf0c91f9b6be59c4ac8c685bbd340" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>NO_INITIALIZED</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a7732135695323d5002fa55d1b611c664" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>objectiveFunctionValue</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a55a6cbc0a4942da683842e054b9889d5" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>positionInRoute</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a43bfa5e38e39b2030b490aedbe54f20a" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>predecessors</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a7b7c4d93612f1a292484e1c53bc6d5c0" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>printSolution</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a288ed7d8f19677983a77318a4b516d04" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>problem</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a9b0a0750c226af6e5113d78b969f29d2" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>routes</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1af22727f741cd95937d2798e10336defc" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>setAvailableVehicles</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a1af6ac56395f0fa6330dc5a5eb8eb532" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>setObjectiveFunctionValue</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1ad7a3f29759063c2aee36f7d446ecf341" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>setPositionInRoute</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a6eb554fd239a0e02a11e9464bf4a5583" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>setPredecessor</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1adcbe16ad9880b364fff696416dd84178" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>setSuccessor</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a9dbbe49a28ece0f6120e447cfe642e93" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>setWaitingTime</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a275e77490c3f2c530f121af9d0d3f004" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>successors</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a98df61504a9363fa53b0d218eb1267ec" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>TOPTWSolution</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1a233cdaa5e8c32561a5ebcbf4326ed336" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWSolution</scope><name>waitingTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

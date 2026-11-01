@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="_main_t_o_p_t_w_8java" kind="file" language="Java">
+    <compoundname>MainTOPTW.java</compoundname>
+    <includes local="no">java.util.logging.Level</includes>
+    <includes local="no">java.util.logging.Logger</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>src/main/java/top/MainTOPTW.java</label>
+        <link refid="_main_t_o_p_t_w_8java"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>java.util.logging.Level</label>
+      </node>
+      <node id="3">
+        <label>java.util.logging.Logger</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classmain_1_1java_1_1top_1_1_main_t_o_p_t_w" prot="public">main::java::top::MainTOPTW</innerclass>
+    <innernamespace refid="namespacemain_1_1java_1_1top">main::java::top</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">main.java.top;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.logging.Level;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.logging.Logger;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classmain_1_1java_1_1top_1_1_main_t_o_p_t_w" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmain_1_1java_1_1top_1_1_main_t_o_p_t_w" kindref="compound">MainTOPTW</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/>Logger<sp/>logger<sp/>=<sp/>Logger.getLogger(<ref refid="classmain_1_1java_1_1top_1_1_main_t_o_p_t_w" kindref="compound">MainTOPTW</ref>.class.getName());</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>main(String[]<sp/>args)<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String[]<sp/>instances<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>String[29];</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>instances[0]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;c101.txt&quot;</highlight><highlight class="normal">;<sp/>instances[3]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;c104.txt&quot;</highlight><highlight class="normal">;<sp/>instances[6]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;c107.txt&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>instances[1]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;c102.txt&quot;</highlight><highlight class="normal">;<sp/>instances[4]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;c105.txt&quot;</highlight><highlight class="normal">;<sp/>instances[7]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;c108.txt&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>instances[2]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;c103.txt&quot;</highlight><highlight class="normal">;<sp/>instances[5]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;c106.txt&quot;</highlight><highlight class="normal">;<sp/>instances[8]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;c109.txt&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>instances[9]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;r101.txt&quot;</highlight><highlight class="normal">;<sp/><sp/>instances[12]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;r104.txt&quot;</highlight><highlight class="normal">;<sp/>instances[15]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;r107.txt&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>instances[10]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;r102.txt&quot;</highlight><highlight class="normal">;<sp/>instances[13]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;r105.txt&quot;</highlight><highlight class="normal">;<sp/>instances[16]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;r108.txt&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>instances[11]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;r103.txt&quot;</highlight><highlight class="normal">;<sp/>instances[14]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;r106.txt&quot;</highlight><highlight class="normal">;<sp/>instances[17]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;r109.txt&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>instances[18]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;r110.txt&quot;</highlight><highlight class="normal">;<sp/>instances[19]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;r111.txt&quot;</highlight><highlight class="normal">;<sp/>instances[20]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;r112.txt&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>instances[21]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;rc101.txt&quot;</highlight><highlight class="normal">;<sp/>instances[24]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;rc104.txt&quot;</highlight><highlight class="normal">;<sp/>instances[27]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;rc107.txt&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>instances[22]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;rc102.txt&quot;</highlight><highlight class="normal">;<sp/>instances[25]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;rc105.txt&quot;</highlight><highlight class="normal">;<sp/>instances[28]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;rc108.txt&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>instances[23]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;rc103.txt&quot;</highlight><highlight class="normal">;<sp/>instances[26]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;rc106.txt&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>instances.length;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/>instance<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Instances/TOPTW/&quot;</highlight><highlight class="normal">+instances[i];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w" kindref="compound">TOPTW</ref><sp/>problem<sp/>=<sp/><ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_reader" kindref="compound">TOPTWReader</ref>.<ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_reader_1a1b5a4668f749776178012d11914e0d4a" kindref="member">readProblem</ref>(instance);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution" kindref="compound">TOPTWSolution</ref><sp/>solution<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution" kindref="compound">TOPTWSolution</ref>(problem);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p" kindref="compound">TOPTWGRASP</ref><sp/>graspObj<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p" kindref="compound">TOPTWGRASP</ref>(solution);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(logger.isLoggable(Level.INFO))<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>logger.info(String.format(</highlight><highlight class="stringliteral">&quot;<sp/>--&gt;<sp/>Instance:<sp/>%s&quot;</highlight><highlight class="normal">,<sp/>instances[i]));</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>graspObj.<ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a27cd561dacbc85b8f9a7c86223aa8a2a" kindref="member">grasp</ref>(10000,<sp/>3);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>graspObj.<ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a27cd561dacbc85b8f9a7c86223aa8a2a" kindref="member">grasp</ref>(10000,<sp/>5);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>graspObj.<ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a27cd561dacbc85b8f9a7c86223aa8a2a" kindref="member">grasp</ref>(10000,<sp/>7);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>logger.info(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/main/java/top/MainTOPTW.java"/>
+  </compounddef>
+</doxygen>

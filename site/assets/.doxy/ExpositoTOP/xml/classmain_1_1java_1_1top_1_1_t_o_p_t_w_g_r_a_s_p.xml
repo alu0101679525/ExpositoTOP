@@ -1,0 +1,576 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p" kind="class" language="Java" prot="public">
+    <compoundname>main::java::top::TOPTWGRASP</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1affe6d0a3c1dd7b78e26e229fa02e212d" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double main.java.top.TOPTWGRASP.NO_EVALUATED</definition>
+        <argsstring></argsstring>
+        <name>NO_EVALUATED</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.NO_EVALUATED</qualifiedname>
+        <initializer>= -1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="18" column="32" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1aca15c1b418ae6460fa1f2bd1db3d8765" prot="private" static="yes" mutable="no">
+        <type>final Logger</type>
+        <definition>final Logger main.java.top.TOPTWGRASP.logger</definition>
+        <argsstring></argsstring>
+        <name>logger</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.logger</qualifiedname>
+        <initializer>= Logger.getLogger(TOPTWGRASP.class.getName())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="19" column="33" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1adfa18920eb11d827b6341b03ca52f38d" prot="private" static="yes" mutable="no">
+        <type>final Random</type>
+        <definition>final Random main.java.top.TOPTWGRASP.rng</definition>
+        <argsstring></argsstring>
+        <name>rng</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.rng</qualifiedname>
+        <initializer>= new Random()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="20" column="33" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1ac6ddc3173da8eefbe39607f43eadf399" prot="private" static="no" mutable="no">
+        <type><ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution" kindref="compound">TOPTWSolution</ref></type>
+        <definition>TOPTWSolution main.java.top.TOPTWGRASP.solution</definition>
+        <argsstring></argsstring>
+        <name>solution</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.solution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="22" column="27" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1af15fdc231c2bc32a147ec4ac33df894f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int main.java.top.TOPTWGRASP.solutionTime</definition>
+        <argsstring></argsstring>
+        <name>solutionTime</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.solutionTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="23" column="17" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a97b85de3fbbb32c7ac4660a93dd28429" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>main.java.top.TOPTWGRASP.TOPTWGRASP</definition>
+        <argsstring>(TOPTWSolution sol)</argsstring>
+        <name>TOPTWGRASP</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.TOPTWGRASP</qualifiedname>
+        <param>
+          <type><ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution" kindref="compound">TOPTWSolution</ref></type>
+          <declname>sol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="25" column="12" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a27cd561dacbc85b8f9a7c86223aa8a2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.top.TOPTWGRASP.grasp</definition>
+        <argsstring>(int maxIterations, int maxSizeRCL)</argsstring>
+        <name>grasp</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.grasp</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>maxIterations</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxSizeRCL</declname>
+        </param>
+        <briefdescription>
+<para>Ejecuta el procedimiento principal del algoritmo GRASP. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxIterations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Número máximo de iteraciones a ejecutar. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxSizeRCL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tamaño máximo de la Lista Restringida de Candidatos (RCL). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="35" column="17" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="35" bodyend="55"/>
+        <references refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1aa96bb6713239abe94dee4782a7460aa4" compoundref="_t_o_p_t_w_g_r_a_s_p_8java" startline="103" endline="127">main.java.top.TOPTWGRASP.computeGreedySolution</references>
+        <references refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution_1afb80c389e5dfe90d9b69ea868f5ca371" compoundref="_t_o_p_t_w_solution_8java" startline="229" endline="245">main.java.top.TOPTWSolution.evaluateFitness</references>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a693849788795625348575352aefbb534" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.top.TOPTWGRASP.aleatorySelectionRCL</definition>
+        <argsstring>(int maxTRCL)</argsstring>
+        <name>aleatorySelectionRCL</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.aleatorySelectionRCL</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>maxTRCL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="57" column="16" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="57" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a987bddf5bf2063268be13af2e77d1030" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.top.TOPTWGRASP.fuzzySelectionBestFDRCL</definition>
+        <argsstring>(List&lt; double[] &gt; rcl)</argsstring>
+        <name>fuzzySelectionBestFDRCL</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.fuzzySelectionBestFDRCL</qualifiedname>
+        <param>
+          <type>List&lt; double[] &gt;</type>
+          <declname>rcl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="61" column="16" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="61" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a21363cc9e73c514a326b67fd511a0e84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.top.TOPTWGRASP.fuzzySelectionAlphaCutRCL</definition>
+        <argsstring>(List&lt; double[] &gt; rcl, double alpha)</argsstring>
+        <name>fuzzySelectionAlphaCutRCL</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.fuzzySelectionAlphaCutRCL</qualifiedname>
+        <param>
+          <type>List&lt; double[] &gt;</type>
+          <declname>rcl</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="78" column="16" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="78" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1aa96bb6713239abe94dee4782a7460aa4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.top.TOPTWGRASP.computeGreedySolution</definition>
+        <argsstring>(int maxSizeRCL)</argsstring>
+        <name>computeGreedySolution</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.computeGreedySolution</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>maxSizeRCL</declname>
+        </param>
+        <briefdescription>
+<para>Construye una solución inicial utilizando un enfoque voraz y probabilístico. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxSizeRCL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tamaño máximo permitido para la Lista Restringida de Candidatos. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="103" column="17" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="103" bodyend="127"/>
+        <referencedby refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a27cd561dacbc85b8f9a7c86223aa8a2a" compoundref="_t_o_p_t_w_g_r_a_s_p_8java" startline="35" endline="55">main.java.top.TOPTWGRASP.grasp</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1ac4cbe2136b1b773580364edb7ac67dc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.top.TOPTWGRASP.updateSolution</definition>
+        <argsstring>(double[] candidateSelected, List&lt; List&lt; Double &gt; &gt; departureTimes)</argsstring>
+        <name>updateSolution</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.updateSolution</qualifiedname>
+        <param>
+          <type>double[]</type>
+          <declname>candidateSelected</declname>
+        </param>
+        <param>
+          <type>List&lt; List&lt; Double &gt; &gt;</type>
+          <declname>departureTimes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="188" column="17" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="188" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a29e9c976f6bc8bdbe94227cd39bf1029" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; double[] &gt;</type>
+        <definition>List&lt; double[] &gt; main.java.top.TOPTWGRASP.comprehensiveEvaluation</definition>
+        <argsstring>(List&lt; Integer &gt; customers, List&lt; List&lt; Double &gt; &gt; departureTimes)</argsstring>
+        <name>comprehensiveEvaluation</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.comprehensiveEvaluation</qualifiedname>
+        <param>
+          <type>List&lt; Integer &gt;</type>
+          <declname>customers</declname>
+        </param>
+        <param>
+          <type>List&lt; List&lt; Double &gt; &gt;</type>
+          <declname>departureTimes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="226" column="17" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="226" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a793a794592c6623d157dda3b7c7f844e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution" kindref="compound">TOPTWSolution</ref></type>
+        <definition>TOPTWSolution main.java.top.TOPTWGRASP.getSolution</definition>
+        <argsstring>()</argsstring>
+        <name>getSolution</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.getSolution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="314" column="26" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="314" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a423cc5a162e7d1db021cd6dd3edc6b62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.top.TOPTWGRASP.setSolution</definition>
+        <argsstring>(TOPTWSolution solution)</argsstring>
+        <name>setSolution</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.setSolution</qualifiedname>
+        <param>
+          <type><ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution" kindref="compound">TOPTWSolution</ref></type>
+          <declname>solution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="318" column="17" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="318" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1afc11595d11ca760517c9d0d465282843" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.top.TOPTWGRASP.getSolutionTime</definition>
+        <argsstring>()</argsstring>
+        <name>getSolutionTime</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.getSolutionTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="322" column="16" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="322" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1adec36ac15cd58355083f8ce8f064ebf7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.top.TOPTWGRASP.setSolutionTime</definition>
+        <argsstring>(int solutionTime)</argsstring>
+        <name>setSolutionTime</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.setSolutionTime</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>solutionTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="326" column="17" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="326" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a40380399ba98ba62236572b77fe4497a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double main.java.top.TOPTWGRASP.getMaxScore</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxScore</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.getMaxScore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="330" column="19" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="330" bodyend="337"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1ad86a72aee0ee433e9d502bd10eee3413" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.top.TOPTWGRASP.initializeDepartureTimes</definition>
+        <argsstring>(List&lt; List&lt; Double &gt; &gt; departureTimesPerClient)</argsstring>
+        <name>initializeDepartureTimes</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.initializeDepartureTimes</qualifiedname>
+        <param>
+          <type>List&lt; List&lt; Double &gt; &gt;</type>
+          <declname>departureTimesPerClient</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="129" column="18" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="129" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a4115a3f1114f33b78ef2278a322c56e2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.top.TOPTWGRASP.processCandidates</definition>
+        <argsstring>(int maxSizeRCL, List&lt; double[]&gt; candidates, List&lt; Integer &gt; customers, List&lt; List&lt; Double &gt; &gt; departureTimesPerClient)</argsstring>
+        <name>processCandidates</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.processCandidates</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>maxSizeRCL</declname>
+        </param>
+        <param>
+          <type>List&lt; double[]&gt;</type>
+          <declname>candidates</declname>
+        </param>
+        <param>
+          <type>List&lt; Integer &gt;</type>
+          <declname>customers</declname>
+        </param>
+        <param>
+          <type>List&lt; List&lt; Double &gt; &gt;</type>
+          <declname>departureTimesPerClient</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="138" column="18" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="138" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a62367c6286192b8e63177ed5b62a2ce7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean main.java.top.TOPTWGRASP.handleEmptyCandidates</definition>
+        <argsstring>(List&lt; List&lt; Double &gt; &gt; departureTimesPerClient)</argsstring>
+        <name>handleEmptyCandidates</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.handleEmptyCandidates</qualifiedname>
+        <param>
+          <type>List&lt; List&lt; Double &gt; &gt;</type>
+          <declname>departureTimesPerClient</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="157" column="21" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="157" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a677180e47268a42441c15d8ce7d571ee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int main.java.top.TOPTWGRASP.selectCandidate</definition>
+        <argsstring>(int maxTRCL, List&lt; double[]&gt; rcl)</argsstring>
+        <name>selectCandidate</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.selectCandidate</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>maxTRCL</declname>
+        </param>
+        <param>
+          <type>List&lt; double[]&gt;</type>
+          <declname>rcl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="171" column="17" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="171" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1af7e961d8f5662ae8fed3311ca874952c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.top.TOPTWGRASP.updateRouteCosts</definition>
+        <argsstring>(int routeIndex, int startNode, List&lt; List&lt; Double &gt; &gt; departureTimes)</argsstring>
+        <name>updateRouteCosts</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.updateRouteCosts</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>routeIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startNode</declname>
+        </param>
+        <param>
+          <type>List&lt; List&lt; Double &gt; &gt;</type>
+          <declname>departureTimes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="201" column="18" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="201" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a4ab017817c19e3680a8b08b970eb7b7d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.top.TOPTWGRASP.evaluateCandidateRoute</definition>
+        <argsstring>(int candidate, int k, List&lt; List&lt; Double &gt; &gt; departureTimes, double[] infoCandidate)</argsstring>
+        <name>evaluateCandidateRoute</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.evaluateCandidateRoute</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>candidate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>k</declname>
+        </param>
+        <param>
+          <type>List&lt; List&lt; Double &gt; &gt;</type>
+          <declname>departureTimes</declname>
+        </param>
+        <param>
+          <type>double[]</type>
+          <declname>infoCandidate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="259" column="18" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="259" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a660a8148c069b345bc720355d4a0aae8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double main.java.top.TOPTWGRASP.evaluateInsertionInRoute</definition>
+        <argsstring>(int candidate, int k, int pre, int suc, List&lt; List&lt; Double &gt; &gt; departureTimes, int depot)</argsstring>
+        <name>evaluateInsertionInRoute</name>
+        <qualifiedname>main.java.top.TOPTWGRASP.evaluateInsertionInRoute</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>candidate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>k</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pre</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>suc</declname>
+        </param>
+        <param>
+          <type>List&lt; List&lt; Double &gt; &gt;</type>
+          <declname>departureTimes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>depot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWGRASP.java" line="280" column="20" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="280" bodyend="312"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Implementación del algoritmo metaheurístico GRASP para el problema <ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w" kindref="compound">TOPTW</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Utiliza una fase constructiva codiciosa aleatorizada para generar múltiples soluciones y se queda con la que ofrezca mejor puntuación (fitness). </para>
+    </detaileddescription>
+    <location file="src/main/java/top/TOPTWGRASP.java" line="17" column="7" bodyfile="src/main/java/top/TOPTWGRASP.java" bodystart="17" bodyend="338"/>
+    <listofallmembers>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a693849788795625348575352aefbb534" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>aleatorySelectionRCL</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a29e9c976f6bc8bdbe94227cd39bf1029" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>comprehensiveEvaluation</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1aa96bb6713239abe94dee4782a7460aa4" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>computeGreedySolution</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a4ab017817c19e3680a8b08b970eb7b7d" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>evaluateCandidateRoute</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a660a8148c069b345bc720355d4a0aae8" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>evaluateInsertionInRoute</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a21363cc9e73c514a326b67fd511a0e84" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>fuzzySelectionAlphaCutRCL</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a987bddf5bf2063268be13af2e77d1030" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>fuzzySelectionBestFDRCL</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a40380399ba98ba62236572b77fe4497a" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>getMaxScore</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a793a794592c6623d157dda3b7c7f844e" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>getSolution</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1afc11595d11ca760517c9d0d465282843" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>getSolutionTime</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a27cd561dacbc85b8f9a7c86223aa8a2a" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>grasp</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a62367c6286192b8e63177ed5b62a2ce7" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>handleEmptyCandidates</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1ad86a72aee0ee433e9d502bd10eee3413" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>initializeDepartureTimes</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1aca15c1b418ae6460fa1f2bd1db3d8765" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>logger</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1affe6d0a3c1dd7b78e26e229fa02e212d" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>NO_EVALUATED</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a4115a3f1114f33b78ef2278a322c56e2" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>processCandidates</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1adfa18920eb11d827b6341b03ca52f38d" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>rng</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a677180e47268a42441c15d8ce7d571ee" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>selectCandidate</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a423cc5a162e7d1db021cd6dd3edc6b62" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>setSolution</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1adec36ac15cd58355083f8ce8f064ebf7" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>setSolutionTime</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1ac6ddc3173da8eefbe39607f43eadf399" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>solution</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1af15fdc231c2bc32a147ec4ac33df894f" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>solutionTime</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1a97b85de3fbbb32c7ac4660a93dd28429" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>TOPTWGRASP</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1af7e961d8f5662ae8fed3311ca874952c" prot="private" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>updateRouteCosts</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_1ac4cbe2136b1b773580364edb7ac67dc2" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWGRASP</scope><name>updateSolution</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_evaluator" kind="class" language="Java" prot="public">
+    <compoundname>main::java::top::TOPTWEvaluator</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_evaluator_1ab06df61411b0faf4945321b2e0ec9225" prot="public" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double main.java.top.TOPTWEvaluator.NO_EVALUATED</definition>
+        <argsstring></argsstring>
+        <name>NO_EVALUATED</name>
+        <qualifiedname>main.java.top.TOPTWEvaluator.NO_EVALUATED</qualifiedname>
+        <initializer>= -1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWEvaluator.java" line="4" column="32" bodyfile="src/main/java/top/TOPTWEvaluator.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_t_o_p_t_w_evaluator_1afd7b21c7982747e71f9dd9845ef66c29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void main.java.top.TOPTWEvaluator.evaluate</definition>
+        <argsstring>(TOPTWSolution solution)</argsstring>
+        <name>evaluate</name>
+        <qualifiedname>main.java.top.TOPTWEvaluator.evaluate</qualifiedname>
+        <param>
+          <type><ref refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_solution" kindref="compound">TOPTWSolution</ref></type>
+          <declname>solution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/TOPTWEvaluator.java" line="6" column="17" bodyfile="src/main/java/top/TOPTWEvaluator.java" bodystart="6" bodyend="8"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/top/TOPTWEvaluator.java" line="3" column="7" bodyfile="src/main/java/top/TOPTWEvaluator.java" bodystart="3" bodyend="9"/>
+    <listofallmembers>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_evaluator_1afd7b21c7982747e71f9dd9845ef66c29" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWEvaluator</scope><name>evaluate</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_t_o_p_t_w_evaluator_1ab06df61411b0faf4945321b2e0ec9225" prot="public" virt="non-virtual"><scope>main::java::top::TOPTWEvaluator</scope><name>NO_EVALUATED</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

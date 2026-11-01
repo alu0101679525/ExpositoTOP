@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="classmain_1_1java_1_1top_1_1_main_t_o_p_t_w" kind="class" language="Java" prot="public">
+    <compoundname>main::java::top::MainTOPTW</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmain_1_1java_1_1top_1_1_main_t_o_p_t_w_1aedeb3cecf2ae5b8b7300b8c433609520" prot="private" static="yes" mutable="no">
+        <type>final Logger</type>
+        <definition>final Logger main.java.top.MainTOPTW.logger</definition>
+        <argsstring></argsstring>
+        <name>logger</name>
+        <qualifiedname>main.java.top.MainTOPTW.logger</qualifiedname>
+        <initializer>= Logger.getLogger(MainTOPTW.class.getName())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/MainTOPTW.java" line="7" column="33" bodyfile="src/main/java/top/MainTOPTW.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmain_1_1java_1_1top_1_1_main_t_o_p_t_w_1a34152256f38579c1ca49f7c1d1cd1e6d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void main.java.top.MainTOPTW.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <qualifiedname>main.java.top.MainTOPTW.main</qualifiedname>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/top/MainTOPTW.java" line="9" column="24" bodyfile="src/main/java/top/MainTOPTW.java" bodystart="9" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/top/MainTOPTW.java" line="6" column="7" bodyfile="src/main/java/top/MainTOPTW.java" bodystart="6" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classmain_1_1java_1_1top_1_1_main_t_o_p_t_w_1aedeb3cecf2ae5b8b7300b8c433609520" prot="private" virt="non-virtual"><scope>main::java::top::MainTOPTW</scope><name>logger</name></member>
+      <member refid="classmain_1_1java_1_1top_1_1_main_t_o_p_t_w_1a34152256f38579c1ca49f7c1d1cd1e6d" prot="public" virt="non-virtual"><scope>main::java::top::MainTOPTW</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

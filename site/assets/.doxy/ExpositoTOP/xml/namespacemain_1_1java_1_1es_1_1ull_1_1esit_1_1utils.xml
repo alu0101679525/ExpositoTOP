@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.18.0" xml:lang="en-US">
+  <compounddef id="namespacemain_1_1java_1_1es_1_1ull_1_1esit_1_1utils" kind="namespace" language="Java">
+    <compoundname>main::java::es::ull::esit::utils</compoundname>
+    <innerclass refid="classmain_1_1java_1_1es_1_1ull_1_1esit_1_1utils_1_1_pair" prot="public">main::java::es::ull::esit::utils::Pair</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/es/ull/esit/utils/Pair.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>
