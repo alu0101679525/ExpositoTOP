@@ -131,6 +131,37 @@ public class TOPTWSolution {
         return this.waitingTime[customer];
     }
 
+    /**
+     * Calcula el porcentaje del tiempo máximo utilizado por una ruta.
+     * Incluye desplazamientos, esperas por ventanas de tiempo y servicio.
+     *
+     * @param routeIndex índice de la ruta en la solución
+     * @return porcentaje de ocupación; puede superar el 100 si la ruta excede el máximo
+     */
+    public double getRouteTimeUtilizationPercentage(int routeIndex) {
+        if (routeIndex < 0 || routeIndex >= this.getCreatedRoutes()) {
+            throw new IndexOutOfBoundsException("Invalid route index: " + routeIndex);
+        }
+
+        double maxTimePerRoute = this.problem.getMaxTimePerRoute();
+        if (maxTimePerRoute <= 0.0) {
+            throw new IllegalStateException("Maximum time per route must be positive");
+        }
+
+        int depot = this.getIndexRoute(routeIndex);
+        int current = depot;
+        double elapsedTime = 0.0;
+        do {
+            int next = this.getSuccessor(current);
+            elapsedTime = Math.max(elapsedTime + this.getDistance(current, next),
+                    this.problem.getReadyTime(next));
+            elapsedTime += this.problem.getServiceTime(next);
+            current = next;
+        } while (current != depot);
+
+        return elapsedTime / maxTimePerRoute * 100.0;
+    }
+
     public void setObjectiveFunctionValue(double objectiveFunctionValue) {
         this.objectiveFunctionValue = objectiveFunctionValue;
     }
