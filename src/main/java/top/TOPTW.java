@@ -118,6 +118,9 @@ public class TOPTW {
     }
 
     public double getDistance(int i, int j) {
+        if (i < 0 || j < 0) {
+            throw new IllegalArgumentException("Node indices must be non-negative: i=" + i + ", j=" + j);
+        }
         return this.distanceMatrix[this.isDepot(i) ? 0 : i][this.isDepot(j) ? 0 : j];
     }
 
